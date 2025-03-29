@@ -1,0 +1,1683 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=1280" />
+    <script type="text/javascript">
+      window.noAdaptive = true;
+    </script>
+    <!--metatextblock-->
+    <title>Ақтоты ұзату</title>
+    <meta property="og:title" content="Ақтоты ұзату" />
+    <meta property="og:description" content="" />
+    <meta property="og:type" content="website" />
+    <link rel="canonical" href="aktotyuzatu">
+    <!--/metatextblock-->
+    <meta name="format-detection" content="telephone=no" />
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <link rel="shortcut icon" href="jake.png" type="image" />
+    <!-- Assets -->
+    <link rel="stylesheet" href="styles.css" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="flipdown.css">
+    <script src="flipdown.js"></script>
+   
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&subset=latin,cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="animate.css" type="text/css" media="all" onerror="this.loaderr='y';" />
+    <link rel="stylesheet" href="animate-1.css" type="text/css" media="all" onerror="this.loaderr='y';" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700" type="text/css" />
+    <script type="text/javascript">
+      (function(d) {
+        if (!d.visibilityState) {
+          var s = d.createElement('script');
+          s.src = 'https://static.tildacdn.com/js/tilda-polyfill-1.0.min.js';
+          d.getElementsByTagName('head')[0].appendChild(s);
+        }
+      })(document);
+
+      function t_onReady(func) {
+        if (document.readyState != 'loading') {
+          func();
+        } else {
+          document.addEventListener('DOMContentLoaded', func);
+        }
+      }
+
+      function t_onFuncLoad(funcName, okFunc, time) {
+        if (typeof window[funcName] === 'function') {
+          okFunc();
+        } else {
+          setTimeout(function() {
+            t_onFuncLoad(funcName, okFunc, time);
+          }, (time || 100));
+        }
+      }
+
+      function t396_initialScale(t) {
+        var e = document.getElementById("rec" + t);
+        if (e) {
+          var r = e.querySelector(".t396__artboard");
+          if (r) {
+            var a, i = document.documentElement.clientWidth,
+              l = [],
+              d = r.getAttribute("data-artboard-screens");
+            if (d) {
+              d = d.split(",");
+              for (var o = 0; o < d.length; o++) l[o] = parseInt(d[o], 10)
+            } else l = [320, 480, 640, 960, 1200];
+            for (o = 0; o < l.length; o++) {
+              var n = l[o];
+              n <= i && (a = n)
+            }
+            var g = "edit" === window.allrecords.getAttribute("data-tilda-mode"),
+              u = "center" === t396_getFieldValue(r, "valign", a, l),
+              c = "grid" === t396_getFieldValue(r, "upscale", a, l),
+              t = t396_getFieldValue(r, "height_vh", a, l),
+              f = t396_getFieldValue(r, "height", a, l),
+              e = !!window.opr && !!window.opr.addons || !!window.opera || -1 !== navigator.userAgent.indexOf(" OPR/");
+            if (!g && u && !c && !t && f && !e) {
+              for (var s = parseFloat((i / a).toFixed(3)), _ = [r, r.querySelector(".t396__carrier"), r.querySelector(".t396__filter")], o = 0; o < _.length; o++) _[o].style.height = parseInt(f, 10) * s + "px";
+              for (var h = r.querySelectorAll(".t396__elem"), o = 0; o < h.length; o++) h[o].style.zoom = s
+            }
+          }
+        }
+      }
+
+    </script>
+    <script src="https://static.tildacdn.com/js/jquery-1.10.2.min.js" charset="utf-8" onerror="this.loaderr='y';"></script>
+    <script src="https://static.tildacdn.com/js/tilda-scripts-3.0.min.js" charset="utf-8" defer onerror="this.loaderr='y';"></script>
+    <script src="tilda-blocks-page35692584.min.js@t=1683272004" charset="utf-8" async onerror="this.loaderr='y';"></script>
+    <script src="https://static.tildacdn.com/js/lazyload-1.3.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
+    <script src="https://static.tildacdn.com/js/tilda-animation-2.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
+    <script src="https://static.tildacdn.com/js/tilda-zero-1.1.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
+    <script src="https://static.tildacdn.com/js/tilda-forms-1.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
+    <script src="https://static.tildacdn.com/js/tilda-zero-forms-1.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
+    <script src="https://static.tildacdn.com/js/tilda-animation-sbs-1.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
+    <script src="https://static.tildacdn.com/js/tilda-zero-scale-1.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
+    <script src="https://static.tildacdn.com/js/tilda-events-1.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
+    <script type="text/javascript">
+      window.dataLayer = window.dataLayer || [];
+    </script>
+    <style>
+      body {
+        -webkit-text-size-adjust: 100%;
+        -moz-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+        text-size-adjust: 100%;
+      }
+    </style>
+    <script type="text/javascript">
+      (function() {
+        if ((/bot|google|yandex|baidu|bing|msn|duckduckbot|teoma|slurp|crawler|spider|robot|crawling|facebook/i.test(navigator.userAgent)) === false && typeof(sessionStorage) != 'undefined' && sessionStorage.getItem('visited') !== 'y' && document.visibilityState) {
+          var style = document.createElement('style');
+          style.type = 'text/css';
+          style.innerHTML = '@media screen and (min-width: 980px) {.t-records {opacity: 0;}.t-records_animated {-webkit-transition: opacity ease-in-out .2s;-moz-transition: opacity ease-in-out .2s;-o-transition: opacity ease-in-out .2s;transition: opacity ease-in-out .2s;}.t-records.t-records_visible {opacity: 1;}}';
+          document.getElementsByTagName('head')[0].appendChild(style);
+
+          function t_setvisRecs() {
+            var alr = document.querySelectorAll('.t-records');
+            Array.prototype.forEach.call(alr, function(el) {
+              el.classList.add("t-records_animated");
+            });
+            setTimeout(function() {
+              Array.prototype.forEach.call(alr, function(el) {
+                el.classList.add("t-records_visible");
+              });
+              sessionStorage.setItem("visited", "y");
+            }, 400);
+          }
+          document.addEventListener('DOMContentLoaded', t_setvisRecs);
+        }
+      })();
+    </script>
+  </head>
+  <body class="t-body" style="margin:0;">
+    <!--allrecords-->
+    <div id="allrecords" class="t-records" data-hook="blocks-collection-content-node" data-tilda-project-id="7083483" data-tilda-page-id="35692584" data-tilda-page-alias="madinauzatu" data-tilda-formskey="5287646035548c75586c565ad7083483" data-tilda-lazy="yes">
+      <div id="rec576682970" class="r t-rec t-rec_pt_0" style="padding-top:0px; " data-animationappear="off" data-record-type="396">
+        <!-- T396 -->
+        <style>
+          #rec576682970 .t396__artboard {
+            height: 5695px;
+            background-color: #ffffff;
+          }
+
+          #rec576682970 .t396__filter {
+            height: 5695px;
+          }
+
+          #rec576682970 .t396__carrier {
+            height: 5695px;
+            background-position: center center;
+            background-attachment: scroll;
+            background-size: cover;
+            background-repeat: no-repeat;
+          }
+
+          @media screen and (max-width: 1199px) {
+            #rec576682970 .t396__artboard {}
+
+            #rec576682970 .t396__filter {}
+
+            #rec576682970 .t396__carrier {
+              background-attachment: scroll;
+            }
+          }
+
+          @media screen and (max-width: 959px) {
+            #rec576682970 .t396__artboard {}
+
+            #rec576682970 .t396__filter {}
+
+            #rec576682970 .t396__carrier {
+              background-attachment: scroll;
+            }
+          }
+
+          @media screen and (max-width: 639px) {
+            #rec576682970 .t396__artboard {}
+
+            #rec576682970 .t396__filter {}
+
+            #rec576682970 .t396__carrier {
+              background-attachment: scroll;
+            }
+          }
+
+          @media screen and (max-width: 479px) {
+            #rec576682970 .t396__artboard {
+              height: 1740px;
+            }
+
+            #rec576682970 .t396__filter {
+              height: 1740px;
+            }
+
+            #rec576682970 .t396__carrier {
+              height: 1740px;
+              background-attachment: scroll;
+            }
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1680054043964"] {
+            top: -3px;
+            left: calc(50% - 600px + -100px);
+            width: 1400px;
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1680054043964"] .tn-atom {
+            background-position: center center;
+            border-color: transparent;
+            border-style: solid;
+          }
+
+          @media screen and (max-width: 1199px) {}
+
+          @media screen and (max-width: 959px) {}
+
+          @media screen and (max-width: 639px) {}
+
+          @media screen and (max-width: 479px) {
+            #rec576682970 .tn-elem[data-elem-id="1680054043964"] {
+              top: -10px;
+              left: calc(50% - 160px + -57px);
+              width: 434px;
+            }
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1680692368482"] {
+            color: #3d3d3d;
+            text-align: center;
+            z-index: 16;
+            top: 3074px;
+            left: calc(50% - 600px + -220px);
+            width: 1639px;
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1680692368482"] .tn-atom {
+            color: #3d3d3d;
+            font-size: 50px;
+            font-family: 'Montserrat', Arial, sans-serif;
+            line-height: 1.3;
+            font-weight: 400;
+            background-position: center center;
+            border-color: transparent;
+            border-style: solid;
+          }
+
+          @media screen and (max-width: 1199px) {}
+
+          @media screen and (max-width: 959px) {}
+
+          @media screen and (max-width: 639px) {}
+
+          @media screen and (max-width: 479px) {
+            #rec576682970 .tn-elem[data-elem-id="1680692368482"] {
+              top: 732px;
+              left: calc(50% - 160px + -659px);
+            }
+
+            #rec576682970 .tn-elem[data-elem-id="1680692368482"] .tn-atom {
+              font-size: 15px;
+            }
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1680692406388"] {
+            color: #20abc7;
+            text-align: center;
+            z-index: 17;
+            top: 2995px;
+            left: calc(50% - 600px + -219px);
+            width: 1639px;
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1680692406388"] .tn-atom {
+            color: #20abc7;
+            font-size: 60px;
+            font-family: 'KZGoodVibes', Arial, sans-serif;
+            line-height: 1.3;
+            font-weight: 300;
+            letter-spacing: -1px;
+            background-position: center center;
+            border-color: transparent;
+            border-style: solid;
+          }
+
+          @media screen and (max-width: 1199px) {}
+
+          @media screen and (max-width: 959px) {}
+
+          @media screen and (max-width: 639px) {}
+
+          @media screen and (max-width: 479px) {
+            #rec576682970 .tn-elem[data-elem-id="1680692406388"] {
+              top: 708px;
+              left: calc(50% - 160px + -659px);
+            }
+
+            #rec576682970 .tn-elem[data-elem-id="1680692406388"] {
+              color: #0e96b5;
+            }
+
+            #rec576682970 .tn-elem[data-elem-id="1680692406388"] .tn-atom {
+              color: #0e96b5;
+              font-size: 19px;
+              letter-spacing: 0px;
+            }
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1680692474849"] {
+            color: #3d3d3d;
+            text-align: center;
+            z-index: 21;
+            top: 2684px;
+            left: calc(50% - 600px + -219px);
+            width: 1639px;
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1680692474849"] .tn-atom {
+            color: #3d3d3d;
+            font-size: 50px;
+            font-family: 'Montserrat', Arial, sans-serif;
+            line-height: 1.3;
+            font-weight: 400;
+            letter-spacing: -1px;
+            background-position: center center;
+            border-color: transparent;
+            border-style: solid;
+          }
+
+          @media screen and (max-width: 1199px) {}
+
+          @media screen and (max-width: 959px) {}
+
+          @media screen and (max-width: 639px) {}
+
+          @media screen and (max-width: 479px) {
+            #rec576682970 .tn-elem[data-elem-id="1680692474849"] {
+              top: 631px;
+              left: calc(50% - 160px + -659px);
+            }
+
+            #rec576682970 .tn-elem[data-elem-id="1680692474849"] .tn-atom {
+              font-size: 15px;
+              line-height: 1.3;
+              letter-spacing: 0px;
+            }
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1680692735986"] {
+            color: #3d3d3d;
+            text-align: center;
+            z-index: 6;
+            top: 3294px;
+            left: calc(50% - 600px + -219px);
+            width: 1639px;
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1680692735986"] .tn-atom {
+            color: #3d3d3d;
+            font-size: 50px;
+            font-family: 'Montserrat', Arial, sans-serif;
+            line-height: 1.3;
+            font-weight: 400;
+            /* : uppercase; */
+            background-position: center center;
+            border-color: transparent;
+            border-style: solid;
+          }
+
+          @media screen and (max-width: 1199px) {}
+
+          @media screen and (max-width: 959px) {}
+
+          @media screen and (max-width: 639px) {}
+
+          @media screen and (max-width: 479px) {
+            #rec576682970 .tn-elem[data-elem-id="1680692735986"] {
+              top: 796px;
+              left: calc(50% - 160px + -659px);
+            }
+
+            #rec576682970 .tn-elem[data-elem-id="1680692735986"] .tn-atom {
+              font-size: 15px;
+              letter-spacing: 0px;
+            }
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1680694767517"] {
+            color: #20abc7;
+            text-align: center;
+            z-index: 10;
+            top: 3221px;
+            left: calc(50% - 600px + -219px);
+            width: 1639px;
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1680694767517"] .tn-atom {
+            color: #20abc7;
+            font-size: 60px;
+            font-family: 'KZGoodVibes', Arial, sans-serif;
+            line-height: 1.3;
+            font-weight: 300;
+            letter-spacing: -1px;
+            background-position: center center;
+            border-color: transparent;
+            border-style: solid;
+          }
+
+          @media screen and (max-width: 1199px) {}
+
+          @media screen and (max-width: 959px) {}
+
+          @media screen and (max-width: 639px) {}
+
+          @media screen and (max-width: 479px) {
+            #rec576682970 .tn-elem[data-elem-id="1680694767517"] {
+              top: 770px;
+              left: calc(50% - 160px + -659px);
+            }
+
+            #rec576682970 .tn-elem[data-elem-id="1680694767517"] {
+              color: #0e96b5;
+            }
+
+            #rec576682970 .tn-elem[data-elem-id="1680694767517"] .tn-atom {
+              color: #0e96b5;
+              font-size: 19px;
+              letter-spacing: 1px;
+            }
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1680696491779"] {
+            color: #20abc7;
+            text-align: center;
+            z-index: 27;
+            top: 2768px;
+            left: calc(50% - 600px + 143px);
+            width: 914px;
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1680696491779"] .tn-atom {
+            color: #20abc7;
+            font-size: 60px;
+            font-family: 'KZGoodVibes', Arial, sans-serif;
+            line-height: 1.3;
+            font-weight: 300;
+            letter-spacing: -1px;
+            background-position: center center;
+            border-color: transparent;
+            border-style: solid;
+          }
+
+          @media screen and (max-width: 1199px) {}
+
+          @media screen and (max-width: 959px) {}
+
+          @media screen and (max-width: 639px) {}
+
+          @media screen and (max-width: 479px) {
+            #rec576682970 .tn-elem[data-elem-id="1680696491779"] {
+              top: 654px;
+              left: calc(50% - 160px + -659px);
+            }
+
+            #rec576682970 .tn-elem[data-elem-id="1680696491779"] {
+              color: #0e96b5;
+            }
+
+            #rec576682970 .tn-elem[data-elem-id="1680696491779"] .tn-atom {
+              color: #0e96b5;
+              font-size: 20px;
+              line-height: 1.3;
+              letter-spacing: 0px;
+            }
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1680696566782"] {
+            color: #3d3d3d;
+            text-align: center;
+            z-index: 25;
+            top: 2344px;
+            left: calc(50% - 600px + -219px);
+            width: 1639px;
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1680696566782"] .tn-atom {
+            color: #3d3d3d;
+            font-size: 55px;
+            font-family: 'Montserrat', Arial, sans-serif;
+            line-height: 1.5;
+            font-weight: 400;
+            letter-spacing: 1px;
+            background-position: center center;
+            border-color: transparent;
+            border-style: solid;
+          }
+
+          @media screen and (max-width: 1199px) {}
+
+          @media screen and (max-width: 959px) {}
+
+          @media screen and (max-width: 639px) {}
+
+          @media screen and (max-width: 479px) {
+            #rec576682970 .tn-elem[data-elem-id="1680696566782"] {
+              top: 521px;
+              left: calc(50% - 160px + -659px);
+            }
+
+            #rec576682970 .tn-elem[data-elem-id="1680696566782"] .tn-atom {
+              font-size: 15px;
+              line-height: 1.45;
+              letter-spacing: 0px;
+            }
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1680703614771"] {
+            color: #ffffff;
+            text-align: center;
+            z-index: 72;
+            top: 3897px;
+            left: calc(50% - 600px + 263px);
+            width: 116px;
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1680703614771"] .tn-atom {
+            color: #ffffff;
+            font-size: 22px;
+            font-family: 'Montserrat', Arial, sans-serif;
+            line-height: 1.35;
+            font-weight: 400;
+            background-position: center center;
+            border-color: transparent;
+            border-style: solid;
+          }
+
+          @media screen and (max-width: 1199px) {}
+
+          @media screen and (max-width: 959px) {}
+
+          @media screen and (max-width: 639px) {}
+
+          @media screen and (max-width: 479px) {
+            #rec576682970 .tn-elem[data-elem-id="1680703614771"] {
+              top: 949px;
+              left: calc(50% - 160px + -84px);
+            }
+
+            #rec576682970 .tn-elem[data-elem-id="1680703614771"] {
+              color: #3d3d3d;
+            }
+
+            #rec576682970 .tn-elem[data-elem-id="1680703614771"] .tn-atom {
+              color: #3d3d3d;
+              font-size: 15px;
+              letter-spacing: 0px;
+            }
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1680730537226"] {
+            z-index: 20;
+            top: 4184px;
+            left: calc(50% - 600px + 190px);
+            width: 700px;
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1680730537226"] .tn-atom {
+            background-position: center center;
+            border-color: transparent;
+            border-style: solid;
+          }
+
+          @media screen and (max-width: 1199px) {}
+
+          @media screen and (max-width: 959px) {}
+
+          @media screen and (max-width: 639px) {}
+
+          @media screen and (max-width: 479px) {
+            #rec576682970 .tn-elem[data-elem-id="1680730537226"] {
+              top: 1150px;
+              left: calc(50% - 160px + 10px);
+              width: 300px;
+            }
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1680834506425"] {
+            color: #3d3d3d;
+            text-align: center;
+            z-index: 9;
+            top: 1949px;
+            left: calc(50% - 600px + -219px);
+            width: 1639px;
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1680834506425"] .tn-atom {
+            color: #3d3d3d;
+            font-size: 55px;
+            font-family: 'Montserrat', Arial, sans-serif;
+            line-height: 1.3;
+            font-weight: 400;
+            letter-spacing: 1px;
+            background-position: center center;
+            border-color: transparent;
+            border-style: solid;
+          }
+
+          @media screen and (max-width: 1199px) {}
+
+          @media screen and (max-width: 959px) {}
+
+          @media screen and (max-width: 639px) {}
+
+          @media screen and (max-width: 479px) {
+            #rec576682970 .tn-elem[data-elem-id="1680834506425"] {
+              top: 415px;
+              left: calc(50% - 160px + -659px);
+            }
+
+            #rec576682970 .tn-elem[data-elem-id="1680834506425"] .tn-atom {
+              font-size: 15px;
+              letter-spacing: 0px;
+            }
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1680834540624"] {
+            color: #3d3d3d;
+            text-align: center;
+            z-index: 45;
+            top: 1769px;
+            left: calc(50% - 600px + -219px);
+            width: 1639px;
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1680834540624"] .tn-atom {
+            color: #3d3d3d;
+            font-size: 40px; /*размер текста */
+            font-family: 'KZGoodVibes', Arial, sans-serif;
+            line-height: 1.2;
+            font-weight: 300;
+            letter-spacing: 1px;
+            background-position: center center;
+            border-color: transparent;
+            border-style: solid;
+          }
+
+          @media screen and (max-width: 1199px) {}
+
+          @media screen and (max-width: 959px) {}
+
+          @media screen and (max-width: 639px) {}
+
+          @media screen and (max-width: 479px) {
+            #rec576682970 .tn-elem[data-elem-id="1680834540624"] {
+              top: 359px;
+              left: calc(50% - 160px + -41px);
+              width: 402px;
+            }
+
+            #rec576682970 .tn-elem[data-elem-id="1680834540624"] .tn-atom {
+              font-size: 18px;
+              line-height: 1.2;
+            }
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1681076849553"] {
+            color: #3d3d3d;
+            text-align: center;
+            z-index: 13;
+            top: 4096px;
+            left: calc(50% - 600px + -219px);
+            width: 1639px;
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1681076849553"] .tn-atom {
+            color: #3d3d3d;
+            font-size: 50px;
+            font-family: 'Montserrat', Arial, sans-serif;
+            line-height: 1.3;
+            font-weight: 400;
+            letter-spacing: -1px;
+            background-position: center center;
+            border-color: transparent;
+            border-style: solid;
+          }
+
+          @media screen and (max-width: 1199px) {}
+
+          @media screen and (max-width: 959px) {}
+
+          @media screen and (max-width: 639px) {}
+
+          @media screen and (max-width: 479px) {
+            #rec576682970 .tn-elem[data-elem-id="1681076849553"] {
+              top: 1106px;
+              left: calc(50% - 160px + -659px);
+            }
+
+            #rec576682970 .tn-elem[data-elem-id="1681076849553"] {
+              color: #0e96b5;
+            }
+
+            #rec576682970 .tn-elem[data-elem-id="1681076849553"] .tn-atom {
+              color: #0e96b5;
+              font-size: 20px;
+              letter-spacing: 1px;
+            }
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1681116253146"] {
+            z-index: 55;
+            top: 753px;
+            left: calc(50% - 600px + -640px);
+            width: 818px;
+            -webkit-filter: brightness(110%);
+            filter: brightness(110%);
+          }
+
+          @media (min-width: 1200px) {
+            #rec576682970 .tn-elem.t396__elem--anim-hidden[data-elem-id="1681116253146"] {
+              opacity: 0;
+            }
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1681116253146"] .tn-atom {
+            background-position: center center;
+            border-color: transparent;
+            border-style: solid;
+          }
+
+          @media screen and (max-width: 1199px) {}
+
+          @media screen and (max-width: 959px) {}
+
+          @media screen and (max-width: 639px) {}
+
+          @media screen and (max-width: 479px) {}
+
+          #rec576682970 .tn-elem[data-elem-id="1681116864722"] {
+            z-index: 56;
+            top: 645px;
+            left: calc(50% - 600px + 1074px);
+            width: 157px;
+            -webkit-filter: blur(2px);
+            filter: blur(2px);
+          }
+
+          @media (min-width: 1200px) {
+            #rec576682970 .tn-elem.t396__elem--anim-hidden[data-elem-id="1681116864722"] {
+              opacity: 0;
+            }
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1681116864722"] .tn-atom {
+            background-position: center center;
+            border-color: transparent;
+            border-style: solid;
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1681116864722"] .tn-atom {
+            -webkit-transform: rotate(144deg);
+            -moz-transform: rotate(144deg);
+            transform: rotate(144deg);
+          }
+
+          @media screen and (max-width: 1199px) {}
+
+          @media screen and (max-width: 959px) {}
+
+          @media screen and (max-width: 639px) {}
+
+          @media screen and (max-width: 479px) {}
+
+          #rec576682970 .tn-elem[data-elem-id="1681119722105"] {
+            z-index: 60;
+            top: 3779px;
+            left: calc(50% - 600px + 197px);
+            width: 806px;
+            height: 195px;
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1681119722105"] .tn-atom {
+            border-radius: 35px;
+            background-image: linear-gradient(253deg, rgba(23, 124, 144, 1) 0%, rgba(32, 171, 199, 1) 100%);
+            border-color: transparent;
+            border-style: solid;
+          }
+
+          @media screen and (max-width: 1199px) {}
+
+          @media screen and (max-width: 959px) {}
+
+          @media screen and (max-width: 639px) {}
+
+          @media screen and (max-width: 479px) {}
+
+          #rec576682970 .tn-elem[data-elem-id="1681123184792"] {
+            z-index: 64;
+            top: 110px;
+            left: calc(50% - 600px + 958px);
+            width: 227px;
+          }
+
+          @media (min-width: 1200px) {
+            #rec576682970 .tn-elem.t396__elem--anim-hidden[data-elem-id="1681123184792"] {
+              opacity: 0;
+            }
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1681123184792"] .tn-atom {
+            background-position: center center;
+            border-color: transparent;
+            border-style: solid;
+          }
+
+          @media screen and (max-width: 1199px) {}
+
+          @media screen and (max-width: 959px) {}
+
+          @media screen and (max-width: 639px) {}
+
+          @media screen and (max-width: 479px) {}
+
+          #rec576682970 .tn-elem[data-elem-id="1681076039495"] {
+            color: #5a5a5a;
+            text-align: center;
+            z-index: 66;
+            top: 2012px;
+            left: calc(50% - 600px + 119px);
+            width: 843px;
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1681076039495"] .tn-atom {
+            color: #5a5a5a;
+            font-size: 110px;
+            font-family: 'KZGoodVibes', Arial, sans-serif;
+            line-height: 1.55;
+            background-position: center center;
+            border-color: transparent;
+            border-style: solid;
+          }
+
+          @media screen and (max-width: 1199px) {}
+
+          @media screen and (max-width: 959px) {}
+
+          @media screen and (max-width: 639px) {}
+
+          @media screen and (max-width: 479px) {
+            #rec576682970 .tn-elem[data-elem-id="1681076039495"] {
+              top: 443px;
+              left: calc(50% - 160px + -440px);
+            }
+
+            #rec576682970 .tn-elem[data-elem-id="1681076039495"] {
+              color: #5a5a5a;
+              text-align: center;
+            }
+
+            #rec576682970 .tn-elem[data-elem-id="1681076039495"] .tn-atom {
+              color: #5a5a5a;
+              font-size: 40px;
+            }
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1681118565152"] {
+            z-index: 59;
+            top: 3430px;
+            left: calc(50% - 600px + 612px);
+            width: 424px;
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1681118565152"] .tn-atom {
+            background-position: center center;
+            border-color: transparent;
+            border-style: solid;
+          }
+
+          @media screen and (max-width: 1199px) {}
+
+          @media screen and (max-width: 959px) {}
+
+          @media screen and (max-width: 639px) {}
+
+          @media screen and (max-width: 479px) {}
+
+          #rec576682970 .tn-elem[data-elem-id="1681118515877"] {
+            z-index: 58;
+            top: 3430px;
+            left: calc(50% - 600px + 165px);
+            width: 424px;
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1681118515877"] .tn-atom {
+            background-position: center center;
+            border-color: transparent;
+            border-style: solid;
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="16811185158"] {
+            z-index: 58;
+            top: 3430px;
+            width: 100%;
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="16811185158"] .tn-atom {
+            background-position: center center;
+            border-color: transparent;
+            border-style: solid;
+          }
+
+          @media screen and (max-width: 1199px) {}
+
+          @media screen and (max-width: 959px) {}
+
+          @media screen and (max-width: 639px) {}
+
+          @media screen and (max-width: 479px) {}
+
+          #rec576682970 .tn-elem[data-elem-id="1681254426016"] {
+            z-index: 67;
+            top: 3797px;
+            left: calc(50% - 600px + -156px);
+            width: 1512px;
+            height: 170px;
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1681254426016"] .tn-atom {
+            background-position: center center;
+            border-color: transparent;
+            border-style: solid;
+          }
+
+          @media screen and (max-width: 1199px) {}
+
+          @media screen and (max-width: 959px) {}
+
+          @media screen and (max-width: 639px) {}
+
+          @media screen and (max-width: 479px) {}
+
+          #rec576682970 .tn-elem[data-elem-id="1681254782915"] {
+            color: #3d3d3d;
+            text-align: center;
+            z-index: 29;
+            top: 3684px;
+            left: calc(50% - 600px + 271px);
+            width: 658px;
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1681254782915"] .tn-atom {
+            color: #3d3d3d;
+            font-size: 50px;
+            font-family: 'Montserrat', Arial, sans-serif;
+            line-height: 1.3;
+            font-weight: 400;
+            letter-spacing: -1px;
+            background-position: center center;
+            border-color: transparent;
+            border-style: solid;
+          }
+
+          @media screen and (max-width: 1199px) {}
+
+          @media screen and (max-width: 959px) {}
+
+          @media screen and (max-width: 639px) {}
+
+          @media screen and (max-width: 479px) {
+            #rec576682970 .tn-elem[data-elem-id="1681254782915"] {
+              top: 949px;
+              left: calc(50% - 160px + -84px);
+            }
+
+            #rec576682970 .tn-elem[data-elem-id="1681254782915"] {
+              color: #3d3d3d;
+            }
+
+            #rec576682970 .tn-elem[data-elem-id="1681254782915"] .tn-atom {
+              color: #3d3d3d;
+              font-size: 15px;
+              letter-spacing: 0px;
+            }
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1681254842608"] {
+            color: #ffffff;
+            text-align: center;
+            z-index: 73;
+            top: 3897px;
+            left: calc(50% - 600px + 453px);
+            width: 116px;
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1681254842608"] .tn-atom {
+            color: #ffffff;
+            font-size: 22px;
+            font-family: 'Montserrat', Arial, sans-serif;
+            line-height: 1.35;
+            font-weight: 400;
+            background-position: center center;
+            border-color: transparent;
+            border-style: solid;
+          }
+
+          @media screen and (max-width: 1199px) {}
+
+          @media screen and (max-width: 959px) {}
+
+          @media screen and (max-width: 639px) {}
+
+          @media screen and (max-width: 479px) {
+            #rec576682970 .tn-elem[data-elem-id="1681254842608"] {
+              top: 959pxpx;
+              left: calc(50% - 160px + -74pxpx);
+            }
+
+            #rec576682970 .tn-elem[data-elem-id="1681254842608"] {
+              color: #3d3d3d;
+            }
+
+            #rec576682970 .tn-elem[data-elem-id="1681254842608"] .tn-atom {
+              color: #3d3d3d;
+              font-size: 15px;
+              letter-spacing: 0px;
+            }
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1681254858381"] {
+            color: #ffffff;
+            text-align: center;
+            z-index: 74;
+            top: 3897px;
+            left: calc(50% - 600px + 635px);
+            width: 116px;
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1681254858381"] .tn-atom {
+            color: #ffffff;
+            font-size: 22px;
+            font-family: 'Montserrat', Arial, sans-serif;
+            line-height: 1.35;
+            font-weight: 400;
+            background-position: center center;
+            border-color: transparent;
+            border-style: solid;
+          }
+
+          @media screen and (max-width: 1199px) {}
+
+          @media screen and (max-width: 959px) {}
+
+          @media screen and (max-width: 639px) {}
+
+          @media screen and (max-width: 479px) {
+            #rec576682970 .tn-elem[data-elem-id="1681254858381"] {
+              top: 969pxpx;
+              left: calc(50% - 160px + -64pxpx);
+            }
+
+            #rec576682970 .tn-elem[data-elem-id="1681254858381"] {
+              color: #3d3d3d;
+            }
+
+            #rec576682970 .tn-elem[data-elem-id="1681254858381"] .tn-atom {
+              color: #3d3d3d;
+              font-size: 15px;
+              letter-spacing: 0px;
+            }
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1681254869032"] {
+            color: #ffffff;
+            text-align: center;
+            z-index: 75;
+            top: 3897px;
+            left: calc(50% - 600px + 824px);
+            width: 116px;
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1681254869032"] .tn-atom {
+            color: #ffffff;
+            font-size: 22px;
+            font-family: 'Montserrat', Arial, sans-serif;
+            line-height: 1.35;
+            font-weight: 400;
+            background-position: center center;
+            border-color: transparent;
+            border-style: solid;
+          }
+
+          @media screen and (max-width: 1199px) {}
+
+          @media screen and (max-width: 959px) {}
+
+          @media screen and (max-width: 639px) {}
+
+          @media screen and (max-width: 479px) {
+            #rec576682970 .tn-elem[data-elem-id="1681254869032"] {
+              top: 979pxpx;
+              left: calc(50% - 160px + -54pxpx);
+            }
+
+            #rec576682970 .tn-elem[data-elem-id="1681254869032"] {
+              color: #3d3d3d;
+            }
+
+            #rec576682970 .tn-elem[data-elem-id="1681254869032"] .tn-atom {
+              color: #3d3d3d;
+              font-size: 15px;
+              letter-spacing: 0px;
+            }
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1681121510847"] {
+            position: fixed;
+            top: 75%;
+            left: calc(50% - 600px + 977px);
+            width: 189px;
+            cursor: pointer;
+            z-index: 63;
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1681121510847"] .tn-atom {
+            background-position: center center;
+            border-color: transparent;
+            border-style: solid;
+          }
+
+          @media screen and (max-width: 1199px) {}
+
+          @media screen and (max-width: 959px) {}
+
+          @media screen and (max-width: 639px) {}
+
+          @media screen and (max-width: 479px) {}
+
+          #rec576682970 .tn-elem[data-elem-id="1681121502264"] {
+            z-index: 62;
+            position: fixed;
+            top: 75%;
+            cursor: pointer;
+            left: calc(50% - 600px + 977px);
+            width: 189px;
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1681121502264"] .tn-atom {
+            background-position: center center;
+            border-color: transparent;
+            border-style: solid;
+          }
+
+          @media screen and (max-width: 1199px) {}
+
+          @media screen and (max-width: 959px) {}
+
+          @media screen and (max-width: 639px) {}
+
+          @media screen and (max-width: 479px) {}
+
+          #rec576682970 .tn-elem[data-elem-id="1680768714495"] {
+            z-index: 37;
+            top: 4300px;
+            left: calc(50% - 600px + 283px);
+            width: 166px;
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1680768714495"] .tn-atom {
+            background-position: center center;
+            border-color: transparent;
+            border-style: solid;
+          }
+
+          @media screen and (max-width: 1199px) {}
+
+          @media screen and (max-width: 959px) {}
+
+          @media screen and (max-width: 639px) {}
+
+          @media screen and (max-width: 479px) {
+            #rec576682970 .tn-elem[data-elem-id="1680768714495"] {
+              top: 1000px;
+              left: calc(50% - 160px + 28px);
+              width: 70px;
+            }
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1680708283690"] {
+            color: #ffffff;
+            text-align: center;
+            z-index: 36;
+            top: 4300px;
+            left: calc(50% - 600px + 375px);
+            width: 450px;
+            height: 100px;
+          }
+
+          #rec576682970 .tn-elem[data-elem-id="1680708283690"] .tn-atom {
+            color: #ffffff;
+            font-size: 32px;
+            font-family: 'Montserrat', Arial, sans-serif;
+            line-height: 1.55;
+            font-weight: 300;
+            border-radius: 40px;
+            background-image: linear-gradient(59deg, rgba(126, 173, 157, 1) 0%, rgba(70, 114, 128, 1) 100%);
+            border-color: transparent;
+            border-style: solid;
+            transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+          }
+
+          @media screen and (max-width: 1199px) {}
+
+          @media screen and (max-width: 959px) {}
+
+          @media screen and (max-width: 639px) {}
+
+          @media screen and (max-width: 479px) {
+            #rec576682970 .tn-elem[data-elem-id="1680708283690"] {
+              top: 1000px;
+              left: calc(50% - 160px + 70px);
+              width: 180px;
+              height: 40px;
+              border-radius: 17px;
+            }
+
+            #rec576682970 .tn-elem[data-elem-id="1680708283690"] {
+              text-align: center;
+            }
+
+            #rec576682970 .tn-elem[data-elem-id="1680708283690"] .tn-atom {
+              font-size: 15px;
+              background-image: linear-gradient(273deg, rgba(20, 179, 144, 1) 0%, rgba(28, 110, 91, 1) 100%);
+              border-radius: 17px;
+            }
+          }
+        </style>
+        <div class='t396'>
+          <div class="t396__artboard" data-artboard-recid="576682970" data-artboard-screens="320,480,640,960,1200" data-artboard-height="5990" data-artboard-valign="center" data-artboard-upscale="grid" data-artboard-height-res-320="1740">
+            <div class="t396__carrier" data-artboard-recid="576682970"></div>
+            <div class="t396__filter" data-artboard-recid="576682970"></div>
+            <div class='t396__elem tn-elem tn-elem__5766829701680054043964' data-elem-id='1680054043964' data-elem-type='image' data-field-top-value="0" data-field-left-value="-100" data-field-width-value="1400" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-field-filewidth-value="750" data-field-fileheight-value="3316" data-field-top-res-320-value="0" data-field-left-res-320-value="-57" data-field-width-res-320-value="434">
+              <div class='tn-atom'>
+                <img class='tn-atom__img t-img' src='KZGoodVibes-main.png' imgfield='tn_img_1680054043964'>
+              </div>
+            </div>
+            <!-- <div class='t396__elem tn-elem tn-elem__5766829701680692368482 t-animate' data-elem-id='1680692368482' data-elem-type='text' data-field-top-value="3314" data-field-left-value="-220" data-field-width-value="1639" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadeinup" data-animate-duration="1" data-animate-distance="100" data-animate-mobile="y" data-field-top-res-320-value="732" data-field-left-res-320-value="-659" data-animate-delay-res-320="0.4">
+              <div class='tn-atom' field='tn_text_1680692368482'>САҒАТ 11.00 ДЕ</div>
+            </div>
+            <div class='t396__elem tn-elem tn-elem__5766829701680692406388 t-animate' data-elem-id='1680692406388' data-elem-type='text' data-field-top-value="3195" data-field-left-value="-219" data-field-width-value="1639" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadeinup" data-animate-duration="1" data-animate-distance="100" data-animate-mobile="y" data-field-top-res-320-value="708" data-field-left-res-320-value="-659">
+              <div class='tn-atom' field='tn_text_1680692406388'>06.08.2023 жыл</div>
+            </div>
+            <div class='t396__elem tn-elem tn-elem__5766829701680692474849 t-animate' data-elem-id='1680692474849' data-elem-type='text' data-field-top-value="2984" data-field-left-value="-219" data-field-width-value="1639" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadeinup" data-animate-duration="1" data-animate-distance="100" data-animate-mobile="y" data-field-top-res-320-value="631" data-field-left-res-320-value="-659" data-animate-delay-res-320="0.2">
+              <div class='tn-atom' field='tn_text_1680692474849'>Той иелері:</div>
+            </div>
+            <div class='t396__elem tn-elem tn-elem__5766829701680692735986 t-animate' data-elem-id='1680692735986' data-elem-type='text' data-field-top-value="3574" data-field-left-value="-219" data-field-width-value="1639" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadeinup" data-animate-duration="1" data-animate-distance="100" data-animate-mobile="y" data-field-top-res-320-value="796" data-field-left-res-320-value="-659" data-animate-delay-res-320="0">
+              <div class='tn-atom' field='tn_text_1680692735986'>Ақтөбе қ. Санкибай Батыр Даңғылы 261</div>
+            </div>
+            <div class='t396__elem tn-elem tn-elem__5766829701680694767517 t-animate' data-elem-id='1680694767517' data-elem-type='text' data-field-top-value="3461" data-field-left-value="-219" data-field-width-value="1639" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadeinup" data-animate-duration="1" data-animate-distance="100" data-animate-mobile="y" data-field-top-res-320-value="770" data-field-left-res-320-value="-659" data-animate-delay-res-320="0">
+              <div class='tn-atom' field='tn_text_1680694767517'>Grand Hall рестораны</div>
+            </div>
+            <div class='t396__elem tn-elem tn-elem__5766829701680696491779 t-animate' data-elem-id='1680696491779' data-elem-type='text' data-field-top-value="3068" data-field-left-value="143" data-field-width-value="914" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadeinup" data-animate-duration="1" data-animate-distance="100" data-animate-mobile="y" data-field-top-res-320-value="654" data-field-left-res-320-value="-659">
+              <div class='tn-atom' field='tn_text_1680696491779'>Амантай - Манат</div>
+            </div> -->
+            <!-- <div class='t396__elem tn-elem tn-elem__5766829701680696566782 t-animate' data-elem-id='1680696566782' data-elem-type='text' data-field-top-value="2344" data-field-left-value="-219" data-field-width-value="1639" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadeinleft" data-animate-duration="1" data-animate-distance="100" data-animate-mobile="y" data-field-top-res-320-value="521" data-field-left-res-320-value="-659" data-animate-style-res-320="fadeinup" data-animate-duration-res-320="2.2" data-animate-delay-res-320="0">
+              <div class='tn-atom' field='tn_text_1680696566782'>ұзату тойына арналған ақ <br>дастарханымыздың қадірлі қонағы <br>болуға шақырамыз </div>
+            </div> -->
+            <!-- <div class='t396__elem tn-elem tn-elem__5766829701680834506425 t-animate' data-elem-id='1680834506425' data-elem-type='text' data-field-top-value="2339" data-field-left-value="-219" data-field-width-value="1639" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadeinleft" data-animate-duration="1" data-animate-distance="100" data-animate-mobile="y" data-field-top-res-320-value="415" data-field-left-res-320-value="-659" data-animate-style-res-320="fadeinup" data-animate-duration-res-320="2.1" data-animate-delay-res-320="0">
+              <div class='tn-atom' field='tn_text_1680834506425'>Сіз (дер) ді аяулы қызымыз</div>
+            </div> -->
+            <div class='t396__elem tn-elem tn-elem__5766829701680834540624 t-animate' data-elem-id='1680834540624' data-elem-type='text' data-field-top-value="2049" data-field-left-value="-219" data-field-width-value="1639" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadeinleft" data-animate-duration="1" data-animate-distance="100" data-animate-mobile="y" data-field-top-res-320-value="359" data-field-left-res-320-value="-41" data-field-width-res-320-value="402" data-animate-style-res-320="fadeinup" data-animate-duration-res-320="1.9">
+              <div class='tn-atom' field='tn_text_1680834540624'>Құрметті қонақтар, <br> сіздерді аяулы қызымыз <br>Тотының <br> Қыз ұзату тойына арналған <br> салтанатты <br> ақ дастарханымыздың
+              <br> қадірлі қонағы <br> болуға шақырамыз !
+              </div>
+            </div>
+            <div class='t396__elem tn-elem tn-elem__57668297016811185158 t-animate' data-elem-id='16811185158' data-elem-type='image' data-field-top-value="2489">
+              <a class='tn-atom' href="https://www.instagram.com/reel/Cl8kANPsX71/">
+                <img class='tn-atom__img t-img' src="etno.jpg" imgfield='tn_img_16811185158'>
+              </a>
+            </div>
+            <div class='t396__elem tn-elem tn-elem__5766829701680834540624 t-animate' data-elem-id='1680834540624' data-elem-type='text' style="padding-top: 15%;">
+              <div class='tn-atom' field='tn_text_1680834540624' style="color: #3d3d3d;
+              font-size: 60px; /*размер текста */
+              font-family: 'KZGoodVibes', Arial, sans-serif;
+              line-height: 1.2;
+              font-weight: 300;
+              letter-spacing: 1px;
+              background-position: center center;
+              border-color: transparent;
+              border-style: solid;"> Той салтанаты:</div>
+            </div>
+            <div class='t396__elem tn-elem tn-elem__5766829701680834540624 t-animate' data-elem-id='1680834540624' data-elem-type='text' data-field-top-value="3129" data-field-left-value="-219" data-field-width-value="1639" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadeinleft" data-animate-duration="1" data-animate-distance="100" data-animate-mobile="y" data-field-top-res-320-value="359" data-field-left-res-320-value="-41" data-field-width-res-320-value="402" data-animate-style-res-320="fadeinup" data-animate-duration-res-320="1.9">
+              <div class='tn-atom' field='tn_text_1680834540624'> 7 шілде 2025 ж. <br> 17:00-де басталады
+              </div>
+            </div>
+            <div class='t396__elem tn-elem tn-elem__5766829701680834540624 t-animate' data-elem-id='1680834540624' data-elem-type='text' data-field-top-value="3279" data-field-left-value="-219" data-field-width-value="1639" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadeinleft" data-animate-duration="1" data-animate-distance="100" data-animate-mobile="y" data-field-top-res-320-value="359" data-field-left-res-320-value="-41" data-field-width-res-320-value="402" data-animate-style-res-320="fadeinup" data-animate-duration-res-320="1.9">
+              <div class='tn-atom' field='tn_text_1680834540624' style="color: #3d3d3d;
+              font-size: 60px; /*размер текста */
+              font-family: 'KZGoodVibes', Arial, sans-serif;
+              line-height: 1.2;
+              font-weight: 300;
+              letter-spacing: 1px;
+              background-position: center center;
+              border-color: transparent;
+              border-style: solid;"> Мекен-жайымыз:</div>
+            </div>
+            <div class='t396__elem tn-elem tn-elem__5766829701680834540624 t-animate' data-elem-id='1680834540624' data-elem-type='text' data-field-top-value="3369" data-field-left-value="-219" data-field-width-value="1639" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadeinleft" data-animate-duration="1" data-animate-distance="100" data-animate-mobile="y" data-field-top-res-320-value="359" data-field-left-res-320-value="-41" data-field-width-res-320-value="402" data-animate-style-res-320="fadeinup" data-animate-duration-res-320="1.9">
+              <div class='tn-atom' field='tn_text_1680834540624'> Saukele банкет залы, <br> аэропортная 28а, Бесагаш
+              </div>
+            </div>
+            <div class='t396__elem tn-elem tn-elem__5766829701681118515877 t-animate' data-elem-id='1681118515877' data-elem-type='image' data-field-top-value="3489" data-field-left-value="465" data-field-width-value="224" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadeinright" data-animate-duration="1" data-animate-distance="100" data-field-filewidth-value="424" data-field-fileheight-value="126">
+              <a class='tn-atom' href="https://2gis.kz/almaty/geo/70000001060098350">
+                <img class="tn-atom__img t-img loaded" data-original="https://static.tildacdn.pro/tild3861-3263-4235-a632-653966323463/2.png" alt="" imgfield="tn_img_1688424391164" src="https://optim.tildacdn.pro/tild3861-3263-4235-a632-653966323463/-/resize/262x/-/format/webp/2.png" style="">
+              </a>
+            </div>
+            <div class='t396__elem tn-elem tn-elem__5766829701680834540624 t-animate' data-elem-id='1680834540624' data-elem-type='text' data-field-top-value="3659" data-field-left-value="-219" data-field-width-value="1639" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadeinleft" data-animate-duration="1" data-animate-distance="100" data-animate-mobile="y" data-field-top-res-320-value="359" data-field-left-res-320-value="-41" data-field-width-res-320-value="402" data-animate-style-res-320="fadeinup" data-animate-duration-res-320="1.9">
+              <div class='tn-atom' field='tn_text_1680834540624' style="color: #3d3d3d;
+              font-size: 60px; /*размер текста */
+              font-family: 'KZGoodVibes', Arial, sans-serif;
+              line-height: 1.2;
+              font-weight: 300;
+              letter-spacing: 1px;
+              background-position: center center;
+              border-color: transparent;
+              border-style: solid;"> Той йелері:</div>
+            </div>
+            <div class='t396__elem tn-elem tn-elem__5766829701680834540624 t-animate' data-elem-id='1680834540624' data-elem-type='text' data-field-top-value="3739" data-field-left-value="-219" data-field-width-value="1639" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadeinleft" data-animate-duration="1" data-animate-distance="100" data-animate-mobile="y" data-field-top-res-320-value="359" data-field-left-res-320-value="-41" data-field-width-res-320-value="402" data-animate-style-res-320="fadeinup" data-animate-duration-res-320="1.9">
+              <div class='tn-atom' field='tn_text_1680834540624'> Перизат Туйгумбаевна
+              </div>
+            </div>
+            <div class='t396__elem tn-elem tn-elem__5766829701680834540624 t-animate' data-elem-id='1680834540624' data-elem-type='text' data-field-top-value="3859" data-field-left-value="-219" data-field-width-value="1639" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadeinleft" data-animate-duration="1" data-animate-distance="100" data-animate-mobile="y" data-field-top-res-320-value="359" data-field-left-res-320-value="-41" data-field-width-res-320-value="402" data-animate-style-res-320="fadeinup" data-animate-duration-res-320="1.9">
+              <div class='tn-atom' field='tn_text_1680834540624' style="color: #3d3d3d;
+              font-size: 60px; /*размер текста */
+              font-family: 'KZGoodVibes', Arial, sans-serif;
+              line-height: 1.2;
+              font-weight: 300;
+              letter-spacing: 1px;
+              background-position: center center;
+              border-color: transparent;
+              border-style: solid;"> Қуанышымыздың  <br> қадірлі куәгері <br> болыңыздар! <br> _______________________________ </div>
+            </div>
+            <div class='t396__elem tn-elem tn-elem__5766829701680834540624 t-animate' data-elem-id='1680834540624' data-elem-type='text' data-field-top-value="4200" data-field-left-value="-219" data-field-width-value="1639" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadeinleft" data-animate-duration="1" data-animate-distance="100" data-animate-mobile="y" data-field-top-res-320-value="359" data-field-left-res-320-value="-41" data-field-width-res-320-value="402" data-animate-style-res-320="fadeinup" data-animate-duration-res-320="1.9">
+              <div class='tn-atom' field='tn_text_1680834540624'> Назар аударыңыз, <br> біздің тойымыз<br> кішкентай бүлдіршіндерсіз өтеді !
+              </div>
+            </div>
+            <!-- <div class='t396__elem tn-elem tn-elem__5766829701681118515877 t-animate' data-elem-id='1681118515877' data-elem-type='image' data-field-top-value="3689" data-field-left-value="225" data-field-width-value="789" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadeinright" data-animate-duration="1" data-animate-distance="100" data-field-filewidth-value="424" data-field-fileheight-value="126">
+              <a class='tn-atom' href="https://2gis.kz/almaty/geo/70000001060098350">
+                <iframe src="https://yandex.ru/map-widget/v1/-/CHRcr0ls" width="100%" height="300" frameborder="1" allowfullscreen="true" style="position:relative;"> </iframe>
+              </a>
+            </div> -->
+            <!-- текст -->
+            <div class='t396__elem tn-elem tn-elem__5766829701680834540624 t-animate' data-elem-id='1680834540624' data-elem-type='text' data-field-top-value="1849" data-field-left-value="-219" data-field-width-value="1639" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadeinleft" data-animate-duration="1" data-animate-distance="100" data-animate-mobile="y" data-field-top-res-320-value="359" data-field-left-res-320-value="-41" data-field-width-res-320-value="402" data-animate-style-res-320="fadeinup" data-animate-duration-res-320="1.9">
+              <div class='tn-atom' field='tn_text_1680834540624' style="color: #3d3d3d;
+              font-size: 60px; /*размер текста */
+              font-family: 'KZGoodVibes', Arial, sans-serif;
+              line-height: 1.2;
+              font-weight: 300;
+              letter-spacing: 1px;
+              background-position: center center;
+              border-color: transparent;
+              border-style: solid;"> ҚЫЗ ҰЗАТУ <br>_______________________________ </div>
+            </div>
+          </div>
+          <div class='t396__elem tn-elem playbgmusic tn-elem__5766829701681121510847' data-elem-id='1681121510847' data-elem-type='image' data-field-top-value="132" data-field-left-value="977" data-field-width-value="189" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-field-filewidth-value="414" data-field-fileheight-value="414" data-field-lazyoff-value="y">
+            <div class='tn-atom'>
+              <img class='tn-atom__img' src='music-icon.png' imgfield='tn_img_1681121510847'>
+            </div>
+          </div>
+          <div class='t396__elem tn-elem stopbgmusic tn-elem__5766829701681121502264' data-elem-id='1681121502264' data-elem-type='image' data-field-top-value="132" data-field-left-value="977" data-field-width-value="189" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-field-filewidth-value="414" data-field-fileheight-value="414" data-field-lazyoff-value="y">
+            <div class='tn-atom'>
+              <img class='tn-atom__img' src='pause-icon.png' imgfield='tn_img_1681121502264'>
+            </div>
+          </div>
+            <!-- <div class='t396__elem tn-elem tn-elem__5766829701681076039495 t-animate' data-elem-id='1681076039495' data-elem-type='text' data-field-top-value="2612" data-field-left-value="119" data-field-width-value="843" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadeinleft" data-animate-duration="1" data-animate-distance="100" data-animate-mobile="y" data-field-top-res-320-value="443" data-field-left-res-320-value="-440" data-animate-style-res-320="fadeinup" data-animate-duration-res-320="2.2" data-animate-delay-res-320="0">
+              <div class='tn-atom' field='tn_text_1681076039495'>
+                 Тотының
+              </div>
+            </div> -->
+            <!-- <div class='t396__elem tn-elem tn-elem__5766829701681118565152 t-animate' data-elem-id='1681118565152' data-elem-type='image' data-field-top-value="3580" data-field-left-value="612" data-field-width-value="424" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadeinleft" data-animate-duration="1" data-animate-distance="100" data-field-filewidth-value="424" data-field-fileheight-value="126">
+              <a class='tn-atom' href="https://2gis.kz/aktobe/firm/70000001056710693">
+                <img class='tn-atom__img t-img' src="2GIS.png" imgfield='tn_img_1681118565152'>
+              </a>
+            </div>
+            <div class='t396__elem tn-elem tn-elem__5766829701681118515877 t-animate' data-elem-id='1681118515877' data-elem-type='image' data-field-top-value="3580" data-field-left-value="165" data-field-width-value="424" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadeinright" data-animate-duration="1" data-animate-distance="100" data-field-filewidth-value="424" data-field-fileheight-value="126">
+              <a class='tn-atom' href="https://www.instagram.com/reel/Cl8kANPsX71/">
+                <img class='tn-atom__img t-img' src="insta.png" imgfield='tn_img_1681118515877'>
+              </a>
+            </div> -->
+          </div>
+        </div>
+        <script>
+          t_onReady(function() {
+            t_onFuncLoad('t396_init', function() {
+              t396_init('576682970');
+            });
+          });
+        </script>
+        <!-- /T396 -->
+      </div>
+      <div id="rec584471480" class="r t-rec" style=" " data-animationappear="off" data-record-type="396">
+        <!-- T396 -->
+        <style>
+          #rec584471480 .t396__artboard {
+            height: 59px;
+            background-color: #ffffff;
+          }
+
+          #rec584471480 .t396__filter {
+            height: 59px;
+          }
+
+          #rec584471480 .t396__carrier {
+            height: 59px;
+            background-position: center center;
+            background-attachment: scroll;
+            background-size: cover;
+            background-repeat: no-repeat;
+          }
+
+          @media screen and (max-width: 1199px) {
+            #rec584471480 .t396__artboard {}
+
+            #rec584471480 .t396__filter {}
+
+            #rec584471480 .t396__carrier {
+              background-attachment: scroll;
+            }
+          }
+
+          @media screen and (max-width: 959px) {
+            #rec584471480 .t396__artboard {}
+
+            #rec584471480 .t396__filter {}
+
+            #rec584471480 .t396__carrier {
+              background-attachment: scroll;
+            }
+          }
+
+          @media screen and (max-width: 639px) {
+            #rec584471480 .t396__artboard {}
+
+            #rec584471480 .t396__filter {}
+
+            #rec584471480 .t396__carrier {
+              background-attachment: scroll;
+            }
+          }
+
+          @media screen and (max-width: 479px) {
+            #rec584471480 .t396__artboard {
+              height: 90px;
+            }
+
+            #rec584471480 .t396__filter {
+              height: 90px;
+            }
+
+            #rec584471480 .t396__carrier {
+              height: 90px;
+              background-attachment: scroll;
+            }
+          }
+
+          #rec584471480 .tn-elem[data-elem-id="1680771732145"] {
+            z-index: 26;
+            top: 0px;
+            left: calc(50% - 600px + -478px);
+            width: 2156px;
+            height: 59px;
+          }
+
+          #rec584471480 .tn-elem[data-elem-id="1680771732145"] .tn-atom {
+            background-color: #000000;
+            background-position: center center;
+            border-color: transparent;
+            border-style: solid;
+          }
+
+          @media screen and (max-width: 1199px) {}
+
+          @media screen and (max-width: 959px) {}
+
+          @media screen and (max-width: 639px) {}
+
+          @media screen and (max-width: 479px) {
+            #rec584471480 .tn-elem[data-elem-id="1680771732145"] {
+              left: calc(50% - 160px + -66px);
+              width: 452px;
+              height: 90px;
+            }
+
+            #rec584471480 .tn-elem[data-elem-id="1680771732145"] .tn-atom {
+              background-color: #000000;
+              opacity: 1;
+              background-attachment: scroll;
+            }
+          }
+
+          #rec584471480 .tn-elem[data-elem-id="1680692735986"] {
+            color: #ffffff;
+            text-align: center;
+            z-index: 27;
+            top: 18px;
+            left: calc(50% - 600px + 313px);
+            width: 574px;
+          }
+
+          #rec584471480 .tn-elem[data-elem-id="1680692735986"] .tn-atom {
+            color: #ffffff;
+            font-size: 20px;
+            font-family: 'Montserrat', Arial, sans-serif;
+            line-height: 1.1;
+            font-weight: 400;
+            background-position: center center;
+            border-color: transparent;
+            border-style: solid;
+          }
+
+          @media screen and (max-width: 1199px) {}
+
+          @media screen and (max-width: 959px) {}
+
+          @media screen and (max-width: 639px) {}
+
+          @media screen and (max-width: 479px) {
+            #rec584471480 .tn-elem[data-elem-id="1680692735986"] {
+              top: 50px;
+              left: calc(50% - 160px + 69px);
+              width: 208px;
+            }
+
+            #rec584471480 .tn-elem[data-elem-id="1680692735986"] {
+              color: #ffffff;
+              text-align: left;
+            }
+
+            #rec584471480 .tn-elem[data-elem-id="1680692735986"] .tn-atom {
+              color: #ffffff;
+              font-size: 10px;
+              line-height: 1.2;
+              letter-spacing: 0px;
+            }
+          }
+
+          #rec584471480 .tn-elem[data-elem-id="1682678942615"] {
+            color: #ffffff;
+            text-align: center;
+            z-index: 28;
+            top: 0px;
+            left: calc(50% - 600px + -490px);
+            width: 2180px;
+            height: 59px;
+          }
+
+          #rec584471480 .tn-elem[data-elem-id="1682678942615"] .tn-atom {
+            color: #ffffff;
+            font-size: 14px;
+            font-family: 'Arial', Arial, sans-serif;
+            line-height: 1.55;
+            font-weight: 600;
+            border-radius: 30px;
+            opacity: 0;
+            background-color: #000000;
+            background-position: center center;
+            border-color: transparent;
+            border-style: solid;
+            transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+          }
+
+          @media screen and (max-width: 1199px) {}
+
+          @media screen and (max-width: 959px) {}
+
+          @media screen and (max-width: 639px) {}
+
+          @media screen and (max-width: 479px) {}
+        </style>
+        <script>
+          t_onReady(function() {
+            t_onFuncLoad('t396_init', function() {
+              t396_init('584471480');
+            });
+          });
+        </script>
+        <!-- /T396 -->
+      </div>
+      <div id="rec576682972" class="r t-rec" style=" " data-animationappear="off" data-record-type="131">
+        <!-- T123 -->
+        <div class="t123">
+          <div class="t-container_100 ">
+            <div class="t-width t-width_100 ">
+              <audio id="bg-sound">
+                <source src="https://dl.dropbox.com/s/i9grfvx5oyhg4tv/%D2%9A%D1%8B%D0%B7%20%D2%93%D2%B1%D0%BC%D1%8B%D1%80.mp3?dl=0">
+              </audio>
+              <script>
+                $(document).ready(function() {
+                  myAudio = document.getElementById("bg-sound");
+                  let fadeTime = 300; //Врямя смены иконок
+                  myAudio.volume = 0.4; //Задаём громкость
+                  $(".stopbgmusic").hide();
+                  $(".playbgmusic").click(function(e) {
+                    myAudio.play();
+                    $(this).fadeOut(fadeTime);
+                    $(".stopbgmusic").fadeIn(fadeTime);
+                  })
+                  $(".stopbgmusic").click(function(e) {
+                    e.preventDefault();
+                    myAudio.pause();
+                    $(this).fadeOut(fadeTime);
+                    $(".playbgmusic").fadeIn(fadeTime);
+                  });
+                  $("#bg-sound").on("ended", function() {
+                    $(".stopbgmusic").fadeOut(fadeTime);
+                    $(".playbgmusic").fadeIn(fadeTime);
+                  });
+                });
+              </script>
+              <style>
+                div[class*="bgmusic"] {
+                  cursor: pointer;
+                  z-index: 99 !important;
+                }
+              </style>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- Stat -->
+    <script type="text/javascript">
+      if (!window.mainTracker) {
+        window.mainTracker = 'tilda';
+      }
+      setTimeout(function() {
+        (function(d, w, k, o, g) {
+          var n = d.getElementsByTagName(o)[0],
+            s = d.createElement(o),
+            f = function() {
+              n.parentNode.insertBefore(s, n);
+            };
+          s.type = "text/javascript";
+          s.async = true;
+          s.key = k;
+          s.id = "tildastatscript";
+          s.src = g;
+          if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+          } else {
+            f();
+          }
+        })(document, window, 'c60afe4427aa3ac0fcd68718dc77d767', 'script', 'https://static.tildacdn.com/js/tilda-stat-1.0.min.js');
+      }, 2000);
+    </script>
+    <script type="text/javascript">
+      t_onReady(function() {
+        if (typeof window.noAdaptive !== "undefined" && window.noAdaptive && (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))) {
+          document.querySelectorAll('table[class*="blocktable"], div[class^="t-carousel__inner"], div[class^="t121"] > center > div, div[class^="t224__blocktable"], div[class*="t306__table-cell"], div[class^="t336__table"], div[class^="t347__table"], div[class^="t401__table"], div[class^="t406__table"], div[class^="t424__box-img"], div[class*="t431__tbody"], div[class*="t433__contentbox"], div[class^="t477__blockimg"], div[class^="t477__textwrapper"], div[class^="t479__videowrapper"] > div, div[class^="t480__textwrapper"], div[class^="t544__blockimg"], div[class^="t544__textwrapper"], div[class^="t545__blockimg"], div[class^="t545__textwrapper"], div[class^="t555__contentbox"], div[class^="t570__contentbox"], div[class^="t251__wrapper"]').forEach(function(el) {
+            el.style.setProperty('height', (768 * el.offsetHeight) / window.innerHeight + 'px', 'important');
+          });
+          document.querySelectorAll('div[class$="t520__imgcell"], div[class$="t728__imgcell"], div[class^="t136"] > div > div[class^="item"]').forEach(function(el) {
+            el.style.setProperty('min-height', (768 * el.offsetHeight) / window.innerHeight + 'px', 'important');
+          });
+          document.querySelectorAll('div[class^="t136"] > div > div[class^="item"] > div[class^="txt-holder"]').forEach(function(el) {
+            el.style.setProperty('top', '0', 'important');
+          });
+        }
+      });
+        // document.addEventListener('DOMContentLoaded', () => {
+        //     let timer_ = 1692558800 //unix timestamp
+        //     let flipdown = new FlipDown(timer_)
+        //         .start()
+        //         .ifEnded(() => {
+        //             document.querySelector(".flipdown").innerHTML = `<h2>Timer is ended</h2>`;
+        //         })
+        // })
+
+
+    </script>
+  </body>
+</html>

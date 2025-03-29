@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=1280" />
+    <title>Тоты ұзату</title>
+    <meta property="og:title" content="Ақтоты ұзату" />
+    <meta property="og:description" content="" />
+    <meta property="og:type" content="website" />
+    <link rel="canonical" href="aktotyuzatu">
+    <meta name="format-detection" content="telephone=no" />
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <link rel="shortcut icon" href="jake.png" type="image" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&subset=latin,cyrillic"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700"
+        type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Lobster&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-one">
+        <div class="main-title">
+            <h1>Қыз ұзату</h1>
+            <hr>
+        </div>
+        <div class="second-title">
+            <h2>Құрметті қонақтар, сіздерді <br> аяулы қызымыз <br> <span > Тотының </span> <br> Қыз ұзату тойына арналған <br> салтанатты ақ дастарханымыздың
+                <br>қадірлі қонағы болуға <br>  шақырамыз!
+            </h2>
+        </div>
+    </div>
+    <div class="med-img">
+        <img src="etno.jpg" class="bg-image">
+    </div>
+    <div class="container-two">
+        <div class="main-title">
+            <h2> <span> Той салтанаты:</span> <br> 7 шілде 2025 ж. <br> 17:00-де басталады
+            </h2>
+        </div>
+        <div class="second-title">
+            <h2> <span> Мекен-жайы:</span> <br> Saukele банкет залы, <br> аэропортная 28а, Бесагаш
+            </h2>
+        </div>
+        <div class='t396__elem tn-elem tn-elem__5766829701681118515877 t-animate' data-elem-id='1681118515877' data-elem-type='image' data-field-top-value="3489" data-field-left-value="465" data-field-width-value="224" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadeinright" data-animate-duration="1" data-animate-distance="100" data-field-filewidth-value="424" data-field-fileheight-value="126">
+            <a class='tn-atom' href="https://2gis.kz/almaty/geo/70000001060098350">
+              <img class="tn-atom__img t-img loaded" data-original="https://static.tildacdn.pro/tild3861-3263-4235-a632-653966323463/2.png" alt="" imgfield="tn_img_1688424391164" src="https://optim.tildacdn.pro/tild3861-3263-4235-a632-653966323463/-/resize/262x/-/format/webp/2.png" style="">
+            </a>
+        </div>
+        <div class="third-title">
+            <h2> <span> Той йелері:</span> <br>Перизат Туйгумбаевна
+            </h2>
+        </div>
+        <div class="four-title">
+            <h2> Қуанышымыздың  <br> қадірлі куәгері болыңыздар!
+            <br>
+            <hr id="line-two">
+            </h2>
+        </div>
+        <div class="five-title">
+            <h2> Назар аударыңыз, <br> біздің тойымыз<br> кішкентай бүлдіршіндерсіз өтеді !
+            </h2>
+        </div>
+    </div>
+        <audio id="bg-sound">
+            <source src="https://dl.dropbox.com/s/i9grfvx5oyhg4tv/%D2%9A%D1%8B%D0%B7%20%D2%93%D2%B1%D0%BC%D1%8B%D1%80.mp3?dl=0">
+          </audio>
+          <div id="music-play" class="music-control">
+            <img src="music-icon.png" alt="Play Music">
+          </div>
+          <div id="music-pause" class="music-control" style="display: none;">
+            <img src="pause-icon.png" alt="Pause Music">
+          </div>
+          <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+          <script>
+            $(document).ready(function() {
+              const myAudio = document.getElementById("bg-sound");
+              const fadeTime = 300; // Transition time between icons
+              
+              myAudio.volume = 0.4; // Set initial volume
+              
+              $("#music-play").click(function() {
+                myAudio.play();
+                $(this).fadeOut(fadeTime);
+                $("#music-pause").fadeIn(fadeTime);
+              });
+              
+              $("#music-pause").click(function() {
+                myAudio.pause();
+                $(this).fadeOut(fadeTime);
+                $("#music-play").fadeIn(fadeTime);
+              });
+              
+              // Handle audio ending
+              $("#bg-sound").on("ended", function() {
+                $("#music-pause").fadeOut(fadeTime);
+                $("#music-play").fadeIn(fadeTime);
+              });
+              
+              window.toggleMusicPlayerStyle = function(style) {
+                const controls = $(".music-control");
+                
+                // Reset any previous custom styles
+                controls.css({
+                  "border-radius": "",
+                  "background-color": "",
+                  "box-shadow": ""
+                });
+                
+                // Apply the selected style
+                switch(style) {
+                  case "round":
+                    controls.css({
+                      "border-radius": "50%",
+                      "box-shadow": "0 4px 8px rgba(0,0,0,0.2)"
+                    });
+                    break;
+                  case "square":
+                    controls.css({
+                      "border-radius": "0",
+                      "box-shadow": "0 4px 8px rgba(0,0,0,0.2)"
+                    });
+                    break;
+                  case "neon":
+                    controls.css({
+                      "border-radius": "10px",
+                      "box-shadow": "0 0 15px #39ff14"
+                    });
+                    break;
+                  default:
+                    // Default style (no special styling)
+                    break;
+                }
+              }
+            });
+          </script>
+</body>
+
+</html>
