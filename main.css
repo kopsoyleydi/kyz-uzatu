@@ -206,22 +206,34 @@ hr {
   .music-control img {
     width: 100%;
   }
-  
-  @media (max-width: 768px) {
-    .music-control {
-      width: 50px;
-      height: 50px;
-      right: 15px;
-      bottom: 15px;
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    body{
+        min-height: 190vh;
     }
-  }
-  
-  @media (max-width: 480px) {
-    .music-control {
-      width: 40px;
-      height: 40px;
-      right: 10px;
-      bottom: 10px;
+    .container-one {
+        height: 50vh;
     }
-  }
-  
+    .container-two {
+        height: 50vh;
+    }
+    .music-control {
+        position: fixed;
+        transition: all 0.3s ease;
+      }
+}
+
+    @media (min-width: 370px) and (max-width: 767px) {
+        body{
+            min-height: 890px;
+        }
+        .container-one {
+            height: 750px;
+            margin-top: 200px;
+        }
+        .container-two {
+            height: 350px;
+            margin-top: 100px;
+        }
+
+    }
