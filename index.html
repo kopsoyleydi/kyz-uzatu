@@ -6,7 +6,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=1280" />
   <title>Тоты ұзату</title>
-  <meta property="og:title" content="Ақтоты ұзату" />
+  <meta property="og:title" content="Uzatu Totasan" />
   <meta property="og:description" content="" />
   <meta property="og:type" content="website" />
   <link rel="canonical" href="aktotyuzatu">
@@ -102,6 +102,15 @@
       <button type="submit" class="submit-button" id="submit-button">Жіберу</button>
       <script type="text/javascript">
 
+        function showCustomAlert(message) {
+          var customAlert = document.getElementById('custom-alert');
+          customAlert.querySelector('p').innerText = message;
+          customAlert.style.display = 'block';
+          setTimeout(function () {
+            customAlert.style.display = 'none';
+          }, 5000);
+        }
+
         function closeCustomAlert() {
           document.getElementById('custom-alert').style.display = 'none';
         }
@@ -119,6 +128,7 @@
 
           httpRequest.onreadystatechange = function () {
             if (httpRequest.readyState == XMLHttpRequest.DONE && httpRequest.status == 200) {
+              showCustomAlert('Жіберілді!');
               message.value = '';
               attendanceValue = '';
             }
@@ -178,6 +188,11 @@
       };
 
     </script>
+  </div>
+  <div id="custom-alert" class="custom-alert">
+    <span class="close-btn" onclick="closeCustomAlert()">×</span>
+    <p></p>
+  </div>
   </div>
   </div>
 </body>
