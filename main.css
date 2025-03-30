@@ -198,10 +198,10 @@ hr {
 }
 .music-control {
     position: fixed;
-    right: 13vw;
-    bottom: 7em;
-    width: 10vw;
-    height: 8vh;
+    right: 10em;
+    bottom: 13em;
+    width: 8em;
+    height: 8em;
     cursor: pointer;
     z-index: 999;
     transition: all 0.3s ease;
