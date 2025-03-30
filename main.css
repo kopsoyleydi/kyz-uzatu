@@ -51,7 +51,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
-    min-height: 420em;
+    min-height: 492em;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -77,7 +77,7 @@ hr {
 }
 
 .container-one .main-title {
-    margin-top: 58%;
+    margin-top: 79%;
     width: 100%;
 }
 
@@ -126,7 +126,7 @@ hr {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 10em;
+    margin-top: 35em;
     height: 85em;
     width: 100%;
 }
@@ -161,7 +161,6 @@ hr {
     margin-top: 1vh;
     font-family: 'KZGoodVibes';
 }
-
 .container-two .second-title h2 {
     font-family: 'KZGoodVibes', Arial, sans-serif;
     font-size: clamp(25px, 5vw, 60px);
@@ -241,7 +240,7 @@ hr {
     justify-content: center;
     align-items: center;
     height: 40em;
-    margin-top: 10em;
+    margin-top: 40em;
     width: 100%;
     margin-bottom: 3em;
 }
@@ -309,7 +308,7 @@ hr {
 }
 
 .form-question {
-    font-size: 2.6em;
+    font-size: 3.2em;
     color: rgb(69, 69, 69);
     margin-bottom: 15px;
     display: block;
@@ -355,7 +354,7 @@ hr {
 }
 
 .radio-label {
-    font-size: 32px;
+    font-size: 2.4em;
     color: #333;
     cursor: pointer;
 }
@@ -366,9 +365,9 @@ hr {
     border: none;
     margin: 0 auto;
     border-radius: 30px;
-    background-color: #2e3a4d;
+    background-color: #8195b5;
     color: white;
-    font-size: 18px;
+    font-size: 2.2em;
     cursor: pointer;
     transition: background-color 0.3s;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
