@@ -200,8 +200,8 @@ hr {
     position: fixed;
     right: 10em;
     bottom: 13em;
-    width: 8em;
-    height: 8em;
+    width: 90px;
+    height: 90px;
     cursor: pointer;
     z-index: 999;
     transition: all 0.3s ease;
