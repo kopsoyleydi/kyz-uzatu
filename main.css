@@ -1,62 +1,72 @@
-@font-face{
-    font-family:'KZGoodVibes';
-    src:url('https://static.tildacdn.com/tild3464-3334-4666-b834-383231333536/KZPFMonumentaPro-Reg.woff') format('woff');
-    font-weight:300;
-    font-style:normal
+@font-face {
+    font-family: 'KZGoodVibes';
+    src: url('https://static.tildacdn.com/tild3464-3334-4666-b834-383231333536/KZPFMonumentaPro-Reg.woff') format('woff');
+    font-weight: 300;
+    font-style: normal
 }
-@font-face{
-    font-family:'KZGoodVibes';
-    src:url('https://static.tildacdn.com/tild3362-3831-4661-a466-663262373565/KZGoodVibes.woff') format('woff');
-    font-weight:400;
-    font-style:normal
+
+@font-face {
+    font-family: 'KZGoodVibes';
+    src: url('https://static.tildacdn.com/tild3362-3831-4661-a466-663262373565/KZGoodVibes.woff') format('woff');
+    font-weight: 400;
+    font-style: normal
 }
-@font-face{
-    font-family:'KZGoodVibes';
-    src:url('https://static.tildacdn.com/tild3762-6537-4731-a335-313731303434/Cormorant-Regular.woff') format('woff');
-    font-weight:500;
-    font-style:normal
+
+@font-face {
+    font-family: 'KZGoodVibes';
+    src: url('https://static.tildacdn.com/tild3762-6537-4731-a335-313731303434/Cormorant-Regular.woff') format('woff');
+    font-weight: 500;
+    font-style: normal
 }
-@font-face{
-    font-family:'KZGoodVibes';
-    src:url('https://static.tildacdn.com/tild3336-6436-4535-b762-626566666332/Cormorant-SemiBold.woff') format('woff');
-    font-weight:600;
-    font-style:normal
+
+@font-face {
+    font-family: 'KZGoodVibes';
+    src: url('https://static.tildacdn.com/tild3336-6436-4535-b762-626566666332/Cormorant-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal
 }
-@font-face{
-    font-family:'KZGoodVibes';
-    src:url('https://static.tildacdn.com/tild6532-3735-4964-b436-633463626630/Cormorant-Bold.woff') format('woff');
-    font-weight:700;
-    font-style:normal
+
+@font-face {
+    font-family: 'KZGoodVibes';
+    src: url('https://static.tildacdn.com/tild6532-3735-4964-b436-633463626630/Cormorant-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal
 }
-@font-face{
-    font-family:'KZGoodVibes';
-    src:url('https://static.tildacdn.com/tild6137-3165-4630-b639-343137366637/EVEY_Bold.woff') format('woff');
-    font-weight:800;
-    font-style:normal
+
+@font-face {
+    font-family: 'KZGoodVibes';
+    src: url('https://static.tildacdn.com/tild6137-3165-4630-b639-343137366637/EVEY_Bold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal
 }
-*{
+
+* {
     box-sizing: border-box;
     height: max-content;
 }
-body{
+
+body {
     font-family: Arial, sans-serif;
     background-image: url('KZGoodVibes_second.png');
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
-    min-height: 315em;
+    min-height: 420em;
     height: auto;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
+
 hr {
     border: none;
     height: 1px;
     background-color: black;
-    margin: 0 auto; /* Центрирование по горизонтали */
+    margin: 0 auto;
+    /* Центрирование по горизонтали */
     width: 75%;
 }
+
 .container-one {
     display: flex;
     flex-direction: column;
@@ -65,44 +75,52 @@ hr {
     align-items: center;
     margin-bottom: 10%;
 }
+
 .container-one .main-title {
     margin-top: 48%;
     width: 100%;
 }
+
 .container-one .second-title {
     width: 100%;
     height: auto;
 }
+
 .container-one .main-title h1 {
     font-family: 'KZGoodVibes', Arial, sans-serif;
     font-size: 7.8em;
+    text-transform: uppercase;
     text-align: center;
     color: rgb(69, 69, 69);
 }
+
 .container-one .second-title h2 {
     font-family: 'KZGoodVibes', Arial, sans-serif;
     font-size: clamp(30px, 5vw, 60px);
     text-align: center;
-    color: rgb(33, 33, 33);
+    color: rgb(69, 69, 69);
 }
-.container-one .second-title h2 span{
+
+.container-one .second-title h2 span {
     font-size: 80px;
     margin-top: 1vh;
     font-family: 'KZGoodVibes', cursive;
 }
-.med-img .bg-image{
-  width: 80%;
-  align-items: center;
+
+.med-img .bg-image {
+    width: 80%;
+    align-items: center;
     display: flex;
     justify-content: center;
-  height: 70em;
-  width: 100%;
-  object-fit: cover;
-  z-index: -1;
-  margin: 0 auto;
-  margin-top: 1%;
-  margin-bottom: 0%;
+    height: 70em;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    margin: 0 auto;
+    margin-top: 1%;
+    margin-bottom: 0%;
 }
+
 .container-two {
     display: flex;
     flex-direction: column;
@@ -112,12 +130,14 @@ hr {
     height: 85em;
     width: 100%;
 }
+
 .container-two .main-title {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
+
 /* .container-two .second-title {
     width: 100%;
     margin-top: 0%;
@@ -127,106 +147,233 @@ hr {
     font-family: "Bad Script", cursive;
     font-size: clamp(30px, 6vw, 70px);
     text-align: center;
-    color: rgb(33, 33, 33);
+    color: rgb(69, 69, 69);
 } */
 .container-two .main-title h2 {
     font-family: 'KZGoodVibes', Arial, sans-serif;
     font-size: clamp(25px, 5vw, 60px);
     text-align: center;
-    color: rgb(33, 33, 33);
+    color: rgb(69, 69, 69);
 }
-.container-two .main-title h2 span{
+
+.container-two .main-title h2 span {
     font-size: 80px;
     margin-top: 1vh;
     font-family: 'KZGoodVibes';
 }
+
 .container-two .second-title h2 {
     font-family: 'KZGoodVibes', Arial, sans-serif;
     font-size: clamp(25px, 5vw, 60px);
     text-align: center;
-    color: rgb(33, 33, 33);
+    color: rgb(69, 69, 69);
 }
-.container-two .second-title h2 span{
+
+.container-two .second-title h2 span {
     font-size: 80px;
     margin-top: 1vh;
     font-family: 'KZGoodVibes', Arial, sans-serif;
 }
+
 .container-two .third-title h2 {
-    font-family:  'KZGoodVibes', Arial, sans-serif;
+    font-family: 'KZGoodVibes', Arial, sans-serif;
     font-size: clamp(25px, 5vw, 60px);
     text-align: center;
-    color: rgb(33, 33, 33);
+    color: rgb(69, 69, 69);
 }
-.container-two .third-title h2 span{
+
+.container-two .third-title h2 span {
     font-size: 80px;
     margin-top: 1vh;
     font-family: 'KZGoodVibes', Arial, sans-serif;
 }
+
 .container-two .four-title h2 {
-    font-family:  'KZGoodVibes', Arial, sans-serif;
+    font-family: 'KZGoodVibes', Arial, sans-serif;
     font-size: clamp(30px, 6vw, 70px);
     text-align: center;
-    color: rgb(33, 33, 33);
+    color: rgb(69, 69, 69);
 }
-.container-two .four-title h2 span{
+
+.container-two .four-title h2 span {
     font-size: 80px;
     margin-top: 1vh;
     font-family: 'KZGoodVibes', Arial, sans-serif;
 }
+
 .container-two .four-title {
     width: 100%;
     margin-top: 0%;
     height: auto;
 }
-#line-two{
+
+#line-two {
     border: none;
-    height: 2px;
+    height: 1px;
     background-color: black;
-    margin: 35px auto; /* Центрирование по горизонтали */
+    margin: 35px auto;
+    /* Центрирование по горизонтали */
     width: 70%;
 }
+
 .container-two .five-title h2 {
     font-family: "KZGoodVibes", "Arial", cursive;
     font-size: clamp(25px, 5vw, 60px);
     text-align: center;
-    color: rgb(33, 33, 33);
+    color: rgb(69, 69, 69);
 }
-.container-two .five-title h2 span{
+
+.container-two .five-title h2 span {
     font-size: 80px;
     margin-top: 1vh;
     font-family: 'KZGoodVibes', Arial, sans-serif;
 }
+
 .container-two .five-title {
     width: 100%;
     margin-top: 0%;
     height: 15em;
 }
+
 .container-three {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 10em;
+    height: 40em;
+    margin-top: 10em;
     width: 100%;
+    margin-bottom: 3em;
 }
+
 .container-three .music-control {
     position: fixed;
     padding-left: 87%;
-  }
-  #music-play{
-    position: fixed;
-    padding-left: 87%;
-    margin-top: 100%;
-  }
-  #music-pause{
-    position: fixed;
-    padding-left: 87%;
-    margin-top: 100%;
-  }
-  
-  .music-control img {
+}
+
+.music-control img {
     width: 40%;
     height: 40;
-  }
+}
+.container-three .title h2 {
+    font-family: "KZGoodVibes", "Arial", cursive;
+    font-size: clamp(25px, 5vw, 60px);
+    text-align: center;
+    color: rgb(69, 69, 69);
+}
 
-  
+.container-three .title h2 span {
+    font-size: 80px;
+    margin-top: 1vh;
+    font-family: 'KZGoodVibes', Arial, sans-serif;
+}
+
+.container-three .title {
+    width: 100%;
+    margin-top: 20em;
+    height: auto;
+}
+.container-three .title h2 {
+    font-family: "KZGoodVibes", "Arial", cursive;
+    font-size: 4em;
+    color: rgb(69, 69, 69);
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+}
+.custom-label{
+    display: flex;
+    flex-direction: column;
+}
+.form-container .form-label {
+    font-size: 3.4em;
+    color: rgb(69, 69, 69);
+    font-weight: normal;
+}
+
+.form-container .form-input {
+    width: 100%;
+    padding: 15px;
+    margin-top: -0.5em;
+    border: none;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 2.8em;
+    margin-bottom: 25px;
+    outline: none;
+}
+
+.form-question {
+    font-size: 2.6em;
+    color: rgb(69, 69, 69);
+    margin-bottom: 15px;
+    display: block;
+    font-weight: normal;
+}
+
+.radio-group {
+    margin-bottom: 30px;
+}
+
+.radio-option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.radio-input {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 24px;
+    height: 24px;
+    border: 2px solid #999;
+    border-radius: 50%;
+    margin-right: 15px;
+    position: relative;
+    cursor: pointer;
+}
+
+.radio-input:checked {
+    border-color: #333;
+}
+
+.radio-input:checked::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 12px;
+    height: 12px;
+    background-color: #333;
+    border-radius: 50%;
+}
+
+.radio-label {
+    font-size: 32px;
+    color: #333;
+    cursor: pointer;
+}
+
+.submit-button {
+    width: 70%;
+    padding: 15px;
+    border: none;
+    margin: 0 auto;
+    border-radius: 30px;
+    background-color: #2e3a4d;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.submit-button:hover {
+    background-color: #3d4a5d;
+}
