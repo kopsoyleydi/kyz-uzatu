@@ -106,6 +106,9 @@
           var customAlert = document.getElementById('custom-alert');
           customAlert.querySelector('p').innerText = message;
           customAlert.style.display = 'block';
+          customAlert.style.justify_content = 'center';
+          сustomAlert.style.align_items = 'center';
+          сustomAlert.style.padding_left = '3em';
           setTimeout(function () {
             customAlert.style.display = 'none';
           }, 5000);
