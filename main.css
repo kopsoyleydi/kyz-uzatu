@@ -34,14 +34,18 @@
     font-weight:800;
     font-style:normal
 }
+*{
+    box-sizing: border-box;
+    height: max-content;
+}
 body{
     font-family: Arial, sans-serif;
     background-image: url('KZGoodVibes-main.png');
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 190vh;
     margin: 0;
-    overflow-x: hidden; /* Запрещает горизонтальный скролл */
+    min-height: 310em;
+    height: auto;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -59,10 +63,10 @@ hr {
     margin-top: 85%;
     justify-content: center;
     align-items: center;
-    height: 65vh;
+    margin-bottom: 5%;
 }
 .container-one .main-title {
-    margin-top: 20vh;
+    margin-top: 48%;
     width: 100%;
 }
 .container-one .second-title {
@@ -87,8 +91,8 @@ hr {
     font-family: 'KZGoodVibes', Arial, sans-serif;
 }
 .med-img .bg-image{
-  width: 100vw;
-  height: 24vh;
+  width: 100%;
+  height: 26em;
   object-fit: cover;
   z-index: -1;
   margin-top: 1%;
@@ -99,8 +103,8 @@ hr {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 5vh;
-    height: 65vh;
+    margin-top: 5em;
+    height: 85em;
     width: 100%;
 }
 .container-two .main-title {
@@ -190,12 +194,12 @@ hr {
 .container-two .five-title {
     width: 100%;
     margin-top: 0%;
-    height: 10vh;
+    height: 10em;
 }
 .music-control {
     position: fixed;
     right: 13vw;
-    bottom: 7vh;
+    bottom: 7em;
     width: 10vw;
     height: 8vh;
     cursor: pointer;
@@ -207,33 +211,4 @@ hr {
     width: 100%;
   }
 
-  @media (min-width: 768px) and (max-width: 1024px) {
-    body{
-        min-height: 190vh;
-    }
-    .container-one {
-        height: 50vh;
-    }
-    .container-two {
-        height: 50vh;
-    }
-    .music-control {
-        position: fixed;
-        transition: all 0.3s ease;
-      }
-}
-
-    @media (min-width: 370px) and (max-width: 767px) {
-        body{
-            min-height: 890px;
-        }
-        .container-one {
-            height: 750px;
-            margin-top: 200px;
-        }
-        .container-two {
-            height: 350px;
-            margin-top: 100px;
-        }
-
-    }
+  
