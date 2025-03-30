@@ -406,6 +406,7 @@ hr {
   
   .music-button img {
     width: 100px;
+    height: 100px;
     transition: transform 0.2s ease;
   }
   
