@@ -84,75 +84,67 @@
       <h2> Тойға қатысуды <br> растаңыз!
       </h2>
     </div>
-    <div class="form-container">
+    <form class="form-container" id="contact-form">
       <div class="custom-label">
         <h1 class="form-label">Аты-жөніңіз: </h1>
-      <input type="text" id="name" class="form-input" required>
+        <input type="text" id="name" class="form-input" required>
       </div>
       <p class="form-question">Тойға келесіз бе?</p>
       <div class="radio-group">
-          <div class="radio-option">
-              <input type="radio" id="attend-yes" name="attendance" class="radio-input" value="yes">
-              <label for="attend-yes" class="radio-label">Иә, әрине</label>
-          </div>
-          <div class="radio-option">
-              <input type="radio" id="attend-no" name="attendance" class="radio-input" value="no">
-              <label for="attend-no" class="radio-label">Өкінішке орай келе алмаймын</label>
-          </div>
+        <div class="radio-option">
+          <input type="radio" id="attend-yes" name="attendance" class="radio-input" value="yes">
+          <label for="attend-yes" class="radio-label">Иә, әрине</label>
+        </div>
+        <div class="radio-option">
+          <input type="radio" id="attend-no" name="attendance" class="radio-input" value="no">
+          <label for="attend-no" class="radio-label">Өкінішке орай келе алмаймын</label>
+        </div>
       </div>
-      
-      <button type="submit" class="submit-button">Жіберу</button>
+
+      <button type="submit" class="submit-button" id="submit-button">Жіберу</button>
       <script type="text/javascript">
-        function showCustomAlert(message) {
-          var customAlert = document.getElementById('custom-alert');
-          customAlert.querySelector('p').innerText = message;
-          customAlert.style.display = 'block';
-          setTimeout(function () {
-            customAlert.style.display = 'none';
-          }, 5000);
-        }
-  
+
         function closeCustomAlert() {
           document.getElementById('custom-alert').style.display = 'none';
         }
-  
+
         function sendEmailMessage(event) {
           event.preventDefault();
-  
+
           const httpRequest = new XMLHttpRequest();
           httpRequest.open("POST", "https://api.emailjs.com/api/v1.0/email/send", true);
           httpRequest.setRequestHeader("Content-Type", "application/json");
-  
-          let emailfrom = document.getElementById("email-form-to");
-          let message = document.getElementById("text-from-to");
-  
+
+          let message = document.getElementById("name");
+          let attendance = document.querySelector('input[name="attendance"]:checked');
+          let attendanceValue = attendance ? attendance.value : 'Не выбрано';
+
           httpRequest.onreadystatechange = function () {
             if (httpRequest.readyState == XMLHttpRequest.DONE && httpRequest.status == 200) {
-              showCustomAlert('Ваше сообщение успешно отправлено, ждите обратную связь, спасибо :)');
-              emailfrom.value = '';
-              message.value = 'Write something here';
+              message.value = '';
+              attendanceValue = '';
             }
           };
-  
+
           let body = {
-            service_id: 'service_zm1fcr9',
-            template_id: 'template_az62sg2',
+            service_id: 'service_6s2187d',
+            template_id: 'template_jnt2ajn',
             user_id: '0sEleiBOwI5SzLaYF',
             template_params: {
-              'to_name': 'Beksultan',
+              'to_name': 'Toty',
               'message': message.value,
-              'from_name': emailfrom.value
+              'attendance': attendanceValue
             }
           };
           body = JSON.stringify(body);
           httpRequest.send(body);
         }
-        
+
         document.getElementById('contact-form').addEventListener('submit', sendEmailMessage);
-  
+
       </script>
-      </div>
   </div>
+  </form>
 </body>
 
 </html>
