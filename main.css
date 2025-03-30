@@ -91,10 +91,14 @@ hr {
     font-family: 'KZGoodVibes', cursive;
 }
 .med-img .bg-image{
-  width: 100%;
+  width: 80%;
+  align-items: center;
+    display: flex;
+    justify-content: center;
   height: 26em;
   object-fit: cover;
   z-index: -1;
+  margin: 0 auto;
   margin-top: 1%;
   margin-bottom: 0%;
 }
@@ -200,8 +204,8 @@ hr {
     position: fixed;
     right: 190px;
     bottom: 310px;
-    width: 90px;
-    height: 90px;
+    width: 30px;
+    height: 30px;
     cursor: pointer;
     z-index: 999;
     transition: all 0.3s ease;
