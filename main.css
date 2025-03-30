@@ -59,7 +59,7 @@ hr {
     margin-top: 85%;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    height: 65vh;
 }
 .container-one .main-title {
     margin-top: 20vh;
@@ -88,7 +88,7 @@ hr {
 }
 .med-img .bg-image{
   width: 100vw;
-  height: 22vh;
+  height: 24vh;
   object-fit: cover;
   z-index: -1;
   margin-top: 1%;
@@ -100,7 +100,7 @@ hr {
     justify-content: center;
     align-items: center;
     margin-top: 5vh;
-    height: 50vh;
+    height: 65vh;
     width: 100%;
 }
 .container-two .main-title {
