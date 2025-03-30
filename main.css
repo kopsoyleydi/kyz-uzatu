@@ -92,14 +92,14 @@ hr {
     font-size: 7.8em;
     text-transform: uppercase;
     text-align: center;
-    color: rgb(69, 69, 69);
+    color: rgb(111, 98, 55);
 }
 
 .container-one .second-title h2 {
     font-family: 'KZGoodVibes', Arial, sans-serif;
     font-size: clamp(30px, 5vw, 60px);
     text-align: center;
-    color: rgb(69, 69, 69);
+    color: rgb(111, 98, 55);
 }
 
 .container-one .second-title h2 span {
@@ -148,13 +148,13 @@ hr {
     font-family: "Bad Script", cursive;
     font-size: clamp(30px, 6vw, 70px);
     text-align: center;
-    color: rgb(69, 69, 69);
+    color: rgb(111, 98, 55);
 } */
 .container-two .main-title h2 {
     font-family: 'KZGoodVibes', Arial, sans-serif;
     font-size: clamp(25px, 5vw, 60px);
     text-align: center;
-    color: rgb(69, 69, 69);
+    color: rgb(111, 98, 55);
 }
 
 .container-two .main-title h2 span {
@@ -166,7 +166,7 @@ hr {
     font-family: 'KZGoodVibes', Arial, sans-serif;
     font-size: clamp(25px, 5vw, 60px);
     text-align: center;
-    color: rgb(69, 69, 69);
+    color: rgb(111, 98, 55);
 }
 .container-two .second-title{
     width: 100%;
@@ -187,7 +187,7 @@ hr {
     font-family: 'KZGoodVibes', Arial, sans-serif;
     font-size: clamp(25px, 5vw, 60px);
     text-align: center;
-    color: rgb(69, 69, 69);
+    color: rgb(111, 98, 55);
 }
 
 .container-two .third-title h2 span {
@@ -200,7 +200,7 @@ hr {
     font-family: 'KZGoodVibes', Arial, sans-serif;
     font-size: clamp(30px, 6vw, 70px);
     text-align: center;
-    color: rgb(69, 69, 69);
+    color: rgb(111, 98, 55);
 }
 
 .container-two .four-title h2 span {
@@ -228,7 +228,7 @@ hr {
     font-family: "KZGoodVibes", "Arial", cursive;
     font-size: clamp(25px, 5vw, 60px);
     text-align: center;
-    color: rgb(69, 69, 69);
+    color: rgb(111, 98, 55);
 }
 
 .container-three .five-title h2 span {
@@ -267,7 +267,7 @@ hr {
     font-family: "KZGoodVibes", "Arial", cursive;
     font-size: clamp(25px, 5vw, 60px);
     text-align: center;
-    color: rgb(69, 69, 69);
+    color: rgb(111, 98, 55);
 }
 
 .container-three .title h2 span {
@@ -284,7 +284,7 @@ hr {
 .container-three .title h2 {
     font-family: "KZGoodVibes", "Arial", cursive;
     font-size: 4em;
-    color: rgb(69, 69, 69);
+    color: rgb(111, 98, 55);
 }
 .form-container {
     display: flex;
@@ -299,7 +299,7 @@ hr {
 }
 .form-container .form-label {
     font-size: 3.4em;
-    color: rgb(69, 69, 69);
+    color: rgb(111, 98, 55);
     font-weight: normal;
 }
 
@@ -318,7 +318,7 @@ hr {
 
 .form-question {
     font-size: 3.4em;
-    color: rgb(69, 69, 69);
+    color: rgb(111, 98, 55);
     margin-bottom: 15px;
     display: block;
     font-weight: normal;
@@ -374,7 +374,7 @@ hr {
     border: none;
     margin: 0 auto;
     border-radius: 30px;
-    background-color: #8195b5;
+    background-color: rgb(190, 167, 89);
     color: white;
     font-size: 2.2em;
     cursor: pointer;
@@ -383,7 +383,7 @@ hr {
 }
 
 .submit-button:hover {
-    background-color: #3d4a5d;
+    background-color: rgb(190, 167, 89);;
 }
 
 
@@ -392,7 +392,7 @@ hr {
     position: fixed;
     z-index: 1000;
     left: 68em;
-    top: 110em;
+    top: 130em;
     width: 100%;
     height: 100%;
   }
