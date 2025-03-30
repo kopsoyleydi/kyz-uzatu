@@ -365,7 +365,7 @@ hr {
 
 .radio-label {
     font-size: 3em;
-    color: #333;
+    color: rgb(111, 98, 55);
     cursor: pointer;
 }
 
@@ -375,7 +375,7 @@ hr {
     border: none;
     margin: 0 auto;
     border-radius: 30px;
-    background-color: rgb(190, 167, 89);
+    background-color: rgb(153, 134, 71);
     color: white;
     font-size: 2.2em;
     cursor: pointer;
@@ -384,7 +384,7 @@ hr {
 }
 
 .submit-button:hover {
-    background-color: rgb(190, 167, 89);;
+    background-color: rgb(153, 134, 71);
 }
 
 
