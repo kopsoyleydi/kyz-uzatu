@@ -200,7 +200,24 @@ hr {
     margin-top: 0%;
     height: 10em;
 }
-.music-control {
+.container-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10em;
+    width: 100%;
+}
+.container-three .music-control {
+    position: fixed;
+    padding-left: 87%;
+  }
+  #music-play{
+    position: fixed;
+    padding-left: 87%;
+    margin-top: 100%;
+  }
+  #music-pause{
     position: fixed;
     padding-left: 87%;
     margin-top: 100%;
