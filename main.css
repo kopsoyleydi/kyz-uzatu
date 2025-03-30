@@ -52,18 +52,18 @@ body{
 }
 hr {
     border: none;
-    height: 2px;
+    height: 1px;
     background-color: black;
-    margin: 10px auto; /* Центрирование по горизонтали */
-    width: 70%;
+    margin: 0 auto; /* Центрирование по горизонтали */
+    width: 80%;
 }
 .container-one {
     display: flex;
     flex-direction: column;
-    margin-top: 85%;
+    margin-top: 95%;
     justify-content: center;
     align-items: center;
-    margin-bottom: 5%;
+    margin-bottom: 8%;
 }
 .container-one .main-title {
     margin-top: 48%;
@@ -95,7 +95,7 @@ hr {
   align-items: center;
     display: flex;
     justify-content: center;
-  height: 26em;
+  height: 30em;
   object-fit: cover;
   z-index: -1;
   margin: 0 auto;
@@ -107,7 +107,7 @@ hr {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 5em;
+    margin-top: 10em;
     height: 85em;
     width: 100%;
 }
@@ -202,17 +202,12 @@ hr {
 }
 .music-control {
     position: fixed;
-    right: 190px;
-    bottom: 310px;
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-    z-index: 999;
-    transition: all 0.3s ease;
+    padding-left: 87%;
+    margin-top: 100%;
   }
   
   .music-control img {
-    width: 100%;
+    width: 40%;
   }
 
   
