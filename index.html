@@ -68,78 +68,80 @@
             </h2>
         </div>
     </div>
-        <audio id="bg-sound">
-            <source src="https://dl.dropbox.com/s/i9grfvx5oyhg4tv/%D2%9A%D1%8B%D0%B7%20%D2%93%D2%B1%D0%BC%D1%8B%D1%80.mp3?dl=0">
-          </audio>
-          <div id="music-play" class="music-control">
-            <img src="music-icon.png" alt="Play Music">
-          </div>
-          <div id="music-pause" class="music-control" style="display: none;">
-            <img src="pause-icon.png" alt="Pause Music">
-          </div>
-          <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-          <script>
-            $(document).ready(function() {
-              const myAudio = document.getElementById("bg-sound");
-              const fadeTime = 300; // Transition time between icons
-              
-              myAudio.volume = 0.4; // Set initial volume
-              
-              $("#music-play").click(function() {
-                myAudio.play();
-                $(this).fadeOut(fadeTime);
-                $("#music-pause").fadeIn(fadeTime);
-              });
-              
-              $("#music-pause").click(function() {
-                myAudio.pause();
-                $(this).fadeOut(fadeTime);
-                $("#music-play").fadeIn(fadeTime);
-              });
-              
-              // Handle audio ending
-              $("#bg-sound").on("ended", function() {
-                $("#music-pause").fadeOut(fadeTime);
-                $("#music-play").fadeIn(fadeTime);
-              });
-              
-              window.toggleMusicPlayerStyle = function(style) {
-                const controls = $(".music-control");
-                
-                // Reset any previous custom styles
-                controls.css({
-                  "border-radius": "",
-                  "background-color": "",
-                  "box-shadow": ""
-                });
-                
-                // Apply the selected style
-                switch(style) {
-                  case "round":
-                    controls.css({
-                      "border-radius": "50%",
-                      "box-shadow": "0 4px 8px rgba(0,0,0,0.2)"
-                    });
-                    break;
-                  case "square":
-                    controls.css({
-                      "border-radius": "0",
-                      "box-shadow": "0 4px 8px rgba(0,0,0,0.2)"
-                    });
-                    break;
-                  case "neon":
-                    controls.css({
-                      "border-radius": "10px",
-                      "box-shadow": "0 0 15px #39ff14"
-                    });
-                    break;
-                  default:
-                    // Default style (no special styling)
-                    break;
-                }
-              }
+    <div class="container-three">
+      <audio id="bg-sound">
+        <source src="https://dl.dropbox.com/s/i9grfvx5oyhg4tv/%D2%9A%D1%8B%D0%B7%20%D2%93%D2%B1%D0%BC%D1%8B%D1%80.mp3?dl=0">
+      </audio>
+      <div id="music-play" class="music-control">
+        <img src="music-icon.png" alt="Play Music">
+      </div>
+      <div id="music-pause" class="music-control" style="display: none;">
+        <img src="pause-icon.png" alt="Pause Music">
+      </div>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script>
+        $(document).ready(function() {
+          const myAudio = document.getElementById("bg-sound");
+          const fadeTime = 300; // Transition time between icons
+          
+          myAudio.volume = 0.4; // Set initial volume
+          
+          $("#music-play").click(function() {
+            myAudio.play();
+            $(this).fadeOut(fadeTime);
+            $("#music-pause").fadeIn(fadeTime);
+          });
+          
+          $("#music-pause").click(function() {
+            myAudio.pause();
+            $(this).fadeOut(fadeTime);
+            $("#music-play").fadeIn(fadeTime);
+          });
+          
+          // Handle audio ending
+          $("#bg-sound").on("ended", function() {
+            $("#music-pause").fadeOut(fadeTime);
+            $("#music-play").fadeIn(fadeTime);
+          });
+          
+          window.toggleMusicPlayerStyle = function(style) {
+            const controls = $(".music-control");
+            
+            // Reset any previous custom styles
+            controls.css({
+              "border-radius": "",
+              "background-color": "",
+              "box-shadow": ""
             });
-          </script>
+            
+            // Apply the selected style
+            switch(style) {
+              case "round":
+                controls.css({
+                  "border-radius": "50%",
+                  "box-shadow": "0 4px 8px rgba(0,0,0,0.2)"
+                });
+                break;
+              case "square":
+                controls.css({
+                  "border-radius": "0",
+                  "box-shadow": "0 4px 8px rgba(0,0,0,0.2)"
+                });
+                break;
+              case "neon":
+                controls.css({
+                  "border-radius": "10px",
+                  "box-shadow": "0 0 15px #39ff14"
+                });
+                break;
+              default:
+                // Default style (no special styling)
+                break;
+            }
+          }
+        });
+      </script>
+    </div>
 </body>
 
 </html>
