@@ -55,7 +55,7 @@ hr {
     height: 1px;
     background-color: black;
     margin: 0 auto; /* Центрирование по горизонтали */
-    width: 80%;
+    width: 75%;
 }
 .container-one {
     display: flex;
@@ -63,7 +63,7 @@ hr {
     margin-top: 95%;
     justify-content: center;
     align-items: center;
-    margin-bottom: 8%;
+    margin-bottom: 10%;
 }
 .container-one .main-title {
     margin-top: 48%;
@@ -75,13 +75,13 @@ hr {
 }
 .container-one .main-title h1 {
     font-family: 'KZGoodVibes', Arial, sans-serif;
-    font-size: clamp(25px, 5vw, 60px);
+    font-size: clamp(35px, 8vw, 80px);
     text-align: center;
     color: rgb(33, 33, 33);
 }
 .container-one .second-title h2 {
     font-family: 'KZGoodVibes', Arial, sans-serif;
-    font-size: clamp(25px, 5vw, 60px);
+    font-size: clamp(30px, 5vw, 60px);
     text-align: center;
     color: rgb(33, 33, 33);
 }
@@ -208,6 +208,7 @@ hr {
   
   .music-control img {
     width: 40%;
+    height: 40;
   }
 
   
