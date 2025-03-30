@@ -46,7 +46,7 @@
       </h2>
     </div>
     <div class="calendar">
-      <img src="calendar.png" class="calendar-image">
+      <img src="calendar-main.png" class="calendar-image">
     </div>
     <div class="third-title">
       <h2> <span> Той йесі:</span> <br>Перизат Туйгумбаевна
@@ -146,8 +146,40 @@
         document.getElementById('contact-form').addEventListener('submit', sendEmailMessage);
 
       </script>
+    </form>
   </div>
-  </form>
+  <div class="music-container">
+    <button class="music-button" onclick="toggleMusic()">
+      <img id="music-icon" src="music-icon.png" alt="Play" width="50">
+    </button>
+    <audio id="music-player">
+      <source src="gulalmaty.mp3" type="audio/mpeg">
+      Сіздің браузеріңіз аудионы ойната алмайды.
+    </audio>
+    <script>
+      let musicPlayer = document.getElementById("music-player");
+      let musicIcon = document.getElementById("music-icon");
+      let isPlaying = false;
+
+      function toggleMusic() {
+        if (isPlaying) {
+          musicPlayer.pause();
+          musicIcon.src = "music-icon.png"; // Меняем иконку обратно на play
+        } else {
+          musicPlayer.play();
+          musicIcon.src = "pause-icon.png"; // Меняем иконку на паузу
+        }
+        isPlaying = !isPlaying;
+      }
+
+      musicPlayer.onended = function () {
+        musicIcon.src = "music-icon.png"; // Когда музыка закончится, вернуть play-иконку
+        isPlaying = false;
+      };
+
+    </script>
+  </div>
+  </div>
 </body>
 
 </html>
