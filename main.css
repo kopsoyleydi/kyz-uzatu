@@ -47,7 +47,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url('KZGoodVibes_wedding_original.png');
+    background-image: url('KZGoodVibes_second.png');
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
@@ -70,35 +70,36 @@ hr {
 .container-one {
     display: flex;
     flex-direction: column;
-    margin-top: 90%;
+    margin-top: 98%;
     justify-content: center;
     align-items: center;
-    margin-bottom: 8%;
+    margin-bottom: 10%;
 }
 
 .container-one .main-title {
-    margin-top: 118%;
+    margin-top: 98%;
     width: 100%;
 }
 
 .container-one .second-title {
     width: 100%;
     height: auto;
-    margin-bottom: 10em;
+    margin-bottom: 7em;
 }
+
 .container-one .main-title h1 {
     font-family: 'KZGoodVibes', Arial, sans-serif;
-    font-size: 6.0em;
+    font-size: 7.8em;
     text-transform: uppercase;
     text-align: center;
-    color: rgb(52, 68, 42);
+    color: rgb(111, 98, 55);
 }
 
 .container-one .second-title h2 {
     font-family: 'KZGoodVibes', Arial, sans-serif;
     font-size: clamp(30px, 5vw, 60px);
     text-align: center;
-    color: rgb(52, 68, 42);
+    color: rgb(111, 98, 55);
 }
 
 .container-one .second-title h2 span {
@@ -114,10 +115,10 @@ hr {
     justify-content: center;
     height: 70em;
     width: 100%;
-    margin-top: 2%;
     object-fit: cover;
     z-index: -1;
     margin: 0 auto;
+    margin-top: 1%;
     margin-bottom: 0%;
 }
 
@@ -126,7 +127,7 @@ hr {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 40em;
+    margin-top: 43em;
     height: 85em;
     width: 100%;
 }
@@ -147,13 +148,13 @@ hr {
     font-family: "Bad Script", cursive;
     font-size: clamp(30px, 6vw, 70px);
     text-align: center;
-    color: rgb(52, 68, 42);
+    color: rgb(111, 98, 55);
 } */
 .container-two .main-title h2 {
     font-family: 'KZGoodVibes', Arial, sans-serif;
     font-size: clamp(25px, 5vw, 60px);
     text-align: center;
-    color: rgb(52, 68, 42);
+    color: rgb(111, 98, 55);
 }
 
 .container-two .main-title h2 span {
@@ -165,7 +166,7 @@ hr {
     font-family: 'KZGoodVibes', Arial, sans-serif;
     font-size: clamp(25px, 5vw, 60px);
     text-align: center;
-    color: rgb(52, 68, 42);
+    color: rgb(111, 98, 55);
 }
 .container-two .second-title{
     width: 100%;
@@ -186,7 +187,7 @@ hr {
     font-family: 'KZGoodVibes', Arial, sans-serif;
     font-size: clamp(25px, 5vw, 60px);
     text-align: center;
-    color: rgb(52, 68, 42);
+    color: rgb(111, 98, 55);
 }
 
 .container-two .third-title h2 span {
@@ -199,7 +200,7 @@ hr {
     font-family: 'KZGoodVibes', Arial, sans-serif;
     font-size: clamp(30px, 6vw, 70px);
     text-align: center;
-    color: rgb(52, 68, 42);
+    color: rgb(111, 98, 55);
 }
 
 .container-two .four-title h2 span {
@@ -227,7 +228,7 @@ hr {
     font-family: "KZGoodVibes", "Arial", cursive;
     font-size: clamp(25px, 5vw, 60px);
     text-align: center;
-    color: rgb(52, 68, 42);
+    color: rgb(111, 98, 55);
 }
 
 .container-three .five-title h2 span {
@@ -266,7 +267,7 @@ hr {
     font-family: "KZGoodVibes", "Arial", cursive;
     font-size: clamp(25px, 5vw, 60px);
     text-align: center;
-    color: rgb(52, 68, 42);
+    color: rgb(111, 98, 55);
 }
 
 .container-three .title h2 span {
@@ -283,7 +284,7 @@ hr {
 .container-three .title h2 {
     font-family: "KZGoodVibes", "Arial", cursive;
     font-size: 4em;
-    color: rgb(52, 68, 42);
+    color: rgb(111, 98, 55);
 }
 .form-container {
     display: flex;
@@ -298,7 +299,7 @@ hr {
 }
 .form-container .form-label {
     font-size: 3.4em;
-    color: rgb(52, 68, 42);
+    color: rgb(111, 98, 55);
     font-weight: normal;
 }
 
@@ -317,7 +318,7 @@ hr {
 
 .form-question {
     font-size: 3.4em;
-    color: rgb(52, 68, 42);
+    color: rgb(111, 98, 55);
     margin-bottom: 15px;
     display: block;
     font-weight: normal;
@@ -338,6 +339,7 @@ hr {
     -webkit-appearance: none;
     width: 34px;
     height: 34px;
+    color: rgb(111, 98, 55);
     border: 2px solid #999;
     border-radius: 50%;
     margin-right: 15px;
@@ -346,7 +348,7 @@ hr {
 }
 
 .radio-input:checked {
-    border-color: #333;
+    border-color: rgb(111, 98, 55);;
 }
 
 .radio-input:checked::after {
@@ -357,13 +359,13 @@ hr {
     transform: translate(-50%, -50%);
     width: 12px;
     height: 12px;
-    background-color: #333;
+    background-color: rgb(111, 98, 55);
     border-radius: 50%;
 }
 
 .radio-label {
     font-size: 3em;
-    color: #333;
+    color: rgb(111, 98, 55);
     cursor: pointer;
 }
 
@@ -373,7 +375,7 @@ hr {
     border: none;
     margin: 0 auto;
     border-radius: 30px;
-    background-color: #415d3d;
+    background-color: rgb(153, 134, 71);
     color: white;
     font-size: 2.2em;
     cursor: pointer;
@@ -382,7 +384,7 @@ hr {
 }
 
 .submit-button:hover {
-    background-color: #415d3d;
+    background-color: rgb(153, 134, 71);
 }
 
 
@@ -411,6 +413,7 @@ hr {
   .music-button img:active {
     transform: scale(0.9);
   }
+
   .custom-alert {
     position: fixed;
     top: 0;
