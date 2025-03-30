@@ -339,6 +339,7 @@ hr {
     -webkit-appearance: none;
     width: 34px;
     height: 34px;
+    color: rgb(111, 98, 55);
     border: 2px solid #999;
     border-radius: 50%;
     margin-right: 15px;
@@ -347,7 +348,7 @@ hr {
 }
 
 .radio-input:checked {
-    border-color: #333;
+    border-color: rgb(111, 98, 55);;
 }
 
 .radio-input:checked::after {
@@ -358,7 +359,7 @@ hr {
     transform: translate(-50%, -50%);
     width: 12px;
     height: 12px;
-    background-color: #333;
+    background-color: rgb(111, 98, 55);
     border-radius: 50%;
 }
 
