@@ -51,7 +51,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
-    min-height: 492em;
+    min-height: 510em;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -77,13 +77,14 @@ hr {
 }
 
 .container-one .main-title {
-    margin-top: 83%;
+    margin-top: 88%;
     width: 100%;
 }
 
 .container-one .second-title {
     width: 100%;
     height: auto;
+    margin-bottom: 7em;
 }
 
 .container-one .main-title h1 {
@@ -126,7 +127,7 @@ hr {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 35em;
+    margin-top: 43em;
     height: 85em;
     width: 100%;
 }
@@ -167,13 +168,21 @@ hr {
     text-align: center;
     color: rgb(69, 69, 69);
 }
-
+.container-two .second-title{
+    width: 100%;
+    height: auto;
+    margin-top: 3em;
+}
 .container-two .second-title h2 span {
     font-size: 80px;
     margin-top: 1vh;
     font-family: 'KZGoodVibes', Arial, sans-serif;
 }
-
+.container-two .third-title{
+    width: 100%;
+    height: auto;
+    margin-top: 3em;
+}
 .container-two .third-title h2 {
     font-family: 'KZGoodVibes', Arial, sans-serif;
     font-size: clamp(25px, 5vw, 60px);
